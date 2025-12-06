@@ -39,7 +39,7 @@ const Sidebar = ({ onReset }) => {
           </div>
           <div className="flex items-start gap-3 text-sm text-gray-400">
             <MapPin size={18} className="mt-0.5 text-purple-400 flex-shrink-0" />
-            <span>Hyper-local recommendations in your area</span>
+            <span>Local recommendations in your area</span>
           </div>
           <div className="flex items-start gap-3 text-sm text-gray-400">
             <Users size={18} className="mt-0.5 text-green-400 flex-shrink-0" />

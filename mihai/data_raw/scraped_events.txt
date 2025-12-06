@@ -1,6 +1,6 @@
 Event: Acces General Expoziție | Întâlniri. Sau cum se naște o lume nouă
 Category: Exhibition
-Description: Emoționantă expoziție deschisă publicului.
+Description: Expoziție emoționantă deschisă publicului.
 Target Audience: General.
 Date: 2025-10-31 00:00
 Location: La Mița Biciclista Stabiliment Creativ
@@ -11,7 +11,7 @@ Source: https://www.iabilet.ro/bilete-acces-general-expozitie-intalniri-sau-cum-
 
 Event: Vizită Ghidată Expoziție | Întâlniri. Sau cum se naște o lume nouă
 Category: Exhibition
-Description: Ghidată expoziție deschisă publicului.
+Description: Vizită ghidată la expoziția emoționantă.
 Target Audience: General.
 Date: 2025-10-31 00:00
 Location: La Mița Biciclista Stabiliment Creativ
@@ -75,9 +75,9 @@ Source: https://www.iabilet.ro/bilete-augustin-magicianul-copiilor-119003/
 
 ------------------------------------------------
 
-Event: Aventurile lui Pingolino
+Event: Aventurile lui Pingolino - teatru pentru copii
 Category: Theater
-Description: Poveste despre prietenia dintre Pinguinul Pingolino și Tigruțul.
+Description: Poveste despre prietenia dintre Pingolino și Tigruțul.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: La Mama - Clubul Țăranului
@@ -99,7 +99,7 @@ Source: https://www.iabilet.ro/bilete-lumiland-miracol-de-craciun-petrecerea-spi
 
 Event: PATT - Coregraful Ateez @ Dance Workshop
 Category: Workshop
-Description: Workshop cu PATT, coregraf renumit.
+Description: Workshop cu coregraful PATT.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Challenge Arts
@@ -119,7 +119,7 @@ Source: https://www.iabilet.ro/bilete-visul-unei-nopti-de-vara-118710/
 
 ------------------------------------------------
 
-Event: The Fool: English Stand-up comedy:Ric Diez- PUNISHED
+Event: The Fool: English Stand-up comedy: Ric Diez- PUNISHED
 Category: Comedy
 Description: Stand-up comedy cu Ric Diez.
 Target Audience: General.
@@ -130,7 +130,7 @@ Source: https://www.iabilet.ro/bilete-the-fool-english-stand-up-comedy-ric-diez-
 
 ------------------------------------------------
 
-Event: Stand-up cu Cristi Popesco, Toma, Sorin Pârcălab și Ioana Luizala
+Event: Stand-up cu Cristi Popesco, Toma, Sorin Pârcălab și Ioana Luiza la ComicsClub!
 Category: Comedy
 Description: Seară de stand-up comedy.
 Target Audience: General.
@@ -176,7 +176,7 @@ Source: https://www.iabilet.ro/bilete-lumiland-povestea-renilor-lui-mos-craciun-
 
 Event: Stand-up Comedy cu Teo, Costel, Mihai Bobonete - Gabi Dumitriu la Club 99
 Category: Comedy
-Description: Seară de stand-up comedy cu Teo și Costel.
+Description: Seară de stand-up comedy.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Club 99
@@ -220,7 +220,7 @@ Source: https://www.iabilet.ro/bilete-craciunul-lui-nicholas-114571/
 
 Event: Alifantis & FragileBand – Poveste de iarnă – Un concert de Moș Niculae
 Category: Concert
-Description: Concert de Moș Niculae cu Alifantis.
+Description: Concert de Moș Niculae.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Teatrul National Bucuresti
@@ -229,9 +229,9 @@ Source: https://www.iabilet.ro/bilete-alifantis-fragileband-poveste-de-iarna-un-
 
 ------------------------------------------------
 
-Event: Sindrofia Mahamournr. 10 cu Panseluța și Sorin
+Event: Sindrofia Mahamourn nr. 10 cu Panseluța și Sorin
 Category: Party
-Description: Seară cu Mahamour la True Club.
+Description: Seară de distracție cu Mahamour.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: True Club
@@ -253,7 +253,7 @@ Source: https://www.iabilet.ro/bilete-magia-unei-chitare-recital-maxim-belciug-1
 
 Event: Cei trei purceluşi
 Category: Theater
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Teatrul Țăndărică
@@ -264,7 +264,7 @@ Source: https://zilesinopti.ro/evenimente/cei-trei-purcelusi-teatrul-tandarica/
 
 Event: Alertă în Laponia
 Category: Theater
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 11:00
 Location: Teatrul Ion Creangă
@@ -275,7 +275,7 @@ Source: https://zilesinopti.ro/evenimente/alerta-in-laponia/
 
 Event: Zaharașka și zăpada uitată
 Category: Theater
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 12:00
 Location: Teatrul de Artă
@@ -286,7 +286,7 @@ Source: https://zilesinopti.ro/evenimente/zaharaska-si-zapada-uitata-teatrul-de-
 
 Event: Închide ochii și ai să vezi mai bine
 Category: Theater
-Description: A theater performance.
+Description: Theater performance.
 Target Audience: General.
 Date: 2025-12-06 12:00
 Location: Teatrul de Comedie
@@ -297,7 +297,7 @@ Source: https://zilesinopti.ro/evenimente/inchide-ochii-si-ai-sa-vezi-mai-bine-3
 
 Event: Cei trei purceluşi
 Category: Theater
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 12:00
 Location: Teatrul Țăndărică
@@ -308,7 +308,7 @@ Source: https://zilesinopti.ro/evenimente/cei-trei-purcelusi-teatrul-tandarica-a
 
 Event: Visul unei nopți de vară
 Category: Theater
-Description: A classic theater performance.
+Description: Theater performance.
 Target Audience: General.
 Date: 2025-12-06 16:00
 Location: Sala Gloria
@@ -319,7 +319,7 @@ Source: https://zilesinopti.ro/evenimente/visul-unei-nopti-de-vara-sala-gloria/
 
 Event: Închide ochii și ai să vezi mai bine
 Category: Theater
-Description: A theater performance.
+Description: Theater performance.
 Target Audience: General.
 Date: 2025-12-06 16:00
 Location: Teatrul de Comedie
@@ -330,7 +330,7 @@ Source: https://zilesinopti.ro/evenimente/inchide-ochii-si-ai-sa-vezi-mai-bine-2
 
 Event: Femei bune pentru bărbați nebuni
 Category: Theater
-Description: A theater performance.
+Description: Theater performance.
 Target Audience: General.
 Date: 2025-12-06 16:30
 Location: Teatrul Roșu
@@ -341,7 +341,7 @@ Source: https://zilesinopti.ro/evenimente/femei-bune-pentru-barbati-nebuni-3/
 
 Event: Milionul, nepoatele și milionara (Ken Ludwig)
 Category: Theater
-Description: A theater performance.
+Description: Theater performance.
 Target Audience: General.
 Date: 2025-12-06 18:00
 Location: Teatrul Elisabeta
@@ -352,7 +352,7 @@ Source: https://zilesinopti.ro/evenimente/milionul-nepoatele-si-milionara/
 
 Event: Peter Pan
 Category: Theater
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 18:00
 Location: Teatrul Ion Creangă
@@ -363,7 +363,7 @@ Source: https://zilesinopti.ro/evenimente/peter-pan-teatrul-ion-creanga/
 
 Event: Contagious Joy
 Category: Performance
-Description: A dance performance for Parkinson.
+Description: Dance performance for Parkinson.
 Target Audience: General.
 Date: 2025-12-06 11:30
 Location: Centrul Naţional al Dansului
@@ -374,7 +374,7 @@ Source: https://zilesinopti.ro/evenimente/contagious-joy-cndb/
 
 Event: Magitot sunt eu
 Category: Junior
-Description: A children's theater performance.
+Description: Children's theater performance.
 Target Audience: General.
 Date: 2025-12-06 17:00
 Location: Teatrul Dramaturgilor Români
@@ -385,7 +385,7 @@ Source: https://zilesinopti.ro/evenimente/magitot-sunt-eu-teatrul-dramaturgilor-
 
 Event: Spărgătorul de nuci
 Category: Ballet
-Description: A classic ballet performance.
+Description: Ballet performance.
 Target Audience: General.
 Date: 2025-12-06 18:30
 Location: Opera Națională București
@@ -396,7 +396,7 @@ Source: https://zilesinopti.ro/evenimente/spargatorul-de-nuci-opera-nationala/
 
 Event: Jazzy Saturday de Sf. Nicolae cu Jazz Trio
 Category: Concert
-Description: A jazz concert.
+Description: Jazz concert.
 Target Audience: General.
 Date: 2025-12-06 15:00
 Location: Berăria H
@@ -407,7 +407,7 @@ Source: https://zilesinopti.ro/evenimente/jazzy-saturday-de-sf-nicolae-cu-jazz-t
 
 Event: Oscar | Apa & Stefan III – 5 Years
 Category: Concert
-Description: A concert celebrating 5 years.
+Description: Anniversary concert.
 Target Audience: General.
 Date: 2025-12-06 18:00
 Location: Arenele Romane
@@ -418,7 +418,7 @@ Source: https://zilesinopti.ro/evenimente/oscar-apa-stefan-iii-5-years-arenele-r
 
 Event: Crăciunul lui Nicholas
 Category: Concert
-Description: A Christmas concert.
+Description: Christmas concert.
 Target Audience: General.
 Date: 2025-12-06 18:30
 Location: Sala Dalles
@@ -429,7 +429,7 @@ Source: https://zilesinopti.ro/evenimente/craciunul-lui-nicholas-sala-dalles-2/
 
 Event: Mahamour
 Category: Concert
-Description: A live concert.
+Description: Live concert.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: True Club
@@ -440,7 +440,7 @@ Source: https://zilesinopti.ro/evenimente/mahamour-true-club-2/
 
 Event: Recital de pian la patru mâini
 Category: Concert
-Description: A piano recital.
+Description: Piano recital.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: Ateneul Român
@@ -451,7 +451,7 @@ Source: https://zilesinopti.ro/evenimente/recital-de-pian-la-patru-maini-ateneul
 
 Event: Alifantis & FragileBand – Poveste de iarnă
 Category: Concert
-Description: A winter concert.
+Description: Winter concert.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: TNB
@@ -462,7 +462,7 @@ Source: https://zilesinopti.ro/evenimente/alifantis-fragileband-poveste-de-iarna
 
 Event: Concerte extraordinare de Crăciun
 Category: Concert
-Description: Extraordinary Christmas concerts.
+Description: Christmas concert.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: Sala Radio
@@ -473,7 +473,7 @@ Source: https://zilesinopti.ro/evenimente/concerte-extraordinare-de-craciun-sala
 
 Event: Festive Afternoon Tea
 Category: Culinary
-Description: A festive culinary event.
+Description: Afternoon tea event.
 Target Audience: General.
 Date: 2025-12-06 15:00
 Location: The Marmorosch
@@ -484,7 +484,7 @@ Source: https://zilesinopti.ro/evenimente/festive-afternoon-tea-the-marmorosch/
 
 Event: Le Festivithé
 Category: Culinary
-Description: A culinary event.
+Description: Culinary event.
 Target Audience: General.
 Date: 2025-12-06 15:00
 Location: L’Atelier Relais & Chateaux
@@ -495,7 +495,7 @@ Source: https://zilesinopti.ro/evenimente/le-festivithe-latelier-relais-chateaux
 
 Event: The Iceball Kiki
 Category: Party
-Description: A festive party event.
+Description: Party event.
 Target Audience: General.
 Date: 2025-12-06 19:30
 Location: Control Club
@@ -506,7 +506,7 @@ Source: https://zilesinopti.ro/evenimente/the-iceball-kiki-control-club/
 
 Event: Emo Reunion 2 Year Anniversary + Surprise Live Act
 Category: Party
-Description: Anniversary party with live act.
+Description: Anniversary party.
 Target Audience: General.
 Date: 2025-12-06 20:00
 Location: Quantic
@@ -517,7 +517,7 @@ Source: https://zilesinopti.ro/evenimente/emo-reunion-2-year-anniversary/
 
 Event: Laidback feat. Vlad Dobrescu (DJ Set)
 Category: Party
-Description: A DJ set event.
+Description: DJ set event.
 Target Audience: General.
 Date: 2025-12-06 20:30
 Location: Random Space
@@ -528,7 +528,7 @@ Source: https://zilesinopti.ro/evenimente/laidback-feat-vlad-dobrescu-dj-set/
 
 Event: Hongdae Party: Christmas Edition
 Category: Party
-Description: A Christmas themed party.
+Description: Christmas party.
 Target Audience: General.
 Date: 2025-12-06 22:00
 Location: Club Mono
@@ -539,7 +539,7 @@ Source: https://zilesinopti.ro/evenimente/hongdae-party-christmas-edition/
 
 Event: Teddybear x 13th Years Anniversary
 Category: Party
-Description: Anniversary party event.
+Description: Anniversary party.
 Target Audience: General.
 Date: 2025-12-06 22:00
 Location: Guava
@@ -548,9 +548,20 @@ Source: https://zilesinopti.ro/evenimente/teddybear-anniversary-guava/
 
 ------------------------------------------------
 
+Event: PW • Ivan Smagghe, Paul Popa
+Category: Party
+Description: DJ event.
+Target Audience: General.
+Date: 2025-12-06 22:00
+Location: Platforma Wolff
+Cost: Free / Check Link
+Source: https://zilesinopti.ro/evenimente/ivan-smagghe-paul-popa/
+
+------------------------------------------------
+
 Event: Dirty Disco w/ Eugen Rădescu
 Category: Party
-Description: A disco party event.
+Description: Party event.
 Target Audience: General.
 Date: 2025-12-06 23:00
 Location: Control Club
@@ -561,7 +572,7 @@ Source: https://zilesinopti.ro/evenimente/dirty-disco-w-eugen-radescu-control-cl
 
 Event: Tărâmul de Gheață
 Category: Fair
-Description: A winter fair event.
+Description: Ice-themed fair.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Parcul Lumea Copiilor
@@ -572,7 +583,7 @@ Source: https://zilesinopti.ro/evenimente/taramul-de-gheata2025/
 
 Event: Târgul de Crăciun București
 Category: Fair
-Description: Christmas market event.
+Description: Christmas fair.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Piața Constituției
@@ -583,7 +594,7 @@ Source: https://zilesinopti.ro/evenimente/targul-de-craciun-bucuresti-2025/
 
 Event: Crăciunul Nordului
 Category: Fair
-Description: A Christmas fair event.
+Description: Christmas fair.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Romexpo
@@ -594,7 +605,7 @@ Source: https://zilesinopti.ro/evenimente/craciunul-nordului-romexpo-2025/
 
 Event: Poveste de Crăciun
 Category: Fair
-Description: A Christmas story event.
+Description: Christmas story event.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Opera Comică pentru Copii
@@ -605,7 +616,7 @@ Source: https://zilesinopti.ro/evenimente/poveste-de-craciun-2025/
 
 Event: Tombola de Crăciun
 Category: Other
-Description: A Christmas raffle event.
+Description: Christmas raffle event.
 Target Audience: General.
 Date: 2025-12-06 10:00
 Location: Veranda Mall
@@ -616,7 +627,7 @@ Source: https://zilesinopti.ro/evenimente/tombola-de-craciun-veranda-mall/
 
 Event: West Side Christmas Market
 Category: Fair
-Description: Christmas market event.
+Description: Christmas market.
 Target Audience: General.
 Date: 2025-12-06 11:00
 Location: Parcul Drumul Taberei
@@ -627,7 +638,7 @@ Source: https://zilesinopti.ro/evenimente/west-side-christmas-market-2025/
 
 Event: Winter Wonderland
 Category: Fair
-Description: A winter fair event.
+Description: Winter-themed fair.
 Target Audience: General.
 Date: 2025-12-06 11:00
 Location: Piața Alba Iulia
@@ -638,7 +649,7 @@ Source: https://zilesinopti.ro/evenimente/winter-wonderland-piata-alba-iulia/
 
 Event: Atelier de artă și tur ghidat pentru copii!
 Category: Workshop
-Description: An art workshop for children.
+Description: Art workshop for children.
 Target Audience: General.
 Date: 2025-12-06 12:00
 Location: Art Safari
@@ -649,7 +660,7 @@ Source: https://zilesinopti.ro/evenimente/atelier-de-arta-si-tur-ghidat-pentru-c
 
 Event: Bucharest Downtown Christmas Market
 Category: Fair
-Description: Christmas market event.
+Description: Christmas market.
 Target Audience: General.
 Date: 2025-12-06 12:00
 Location: Piața Universității
@@ -660,7 +671,7 @@ Source: https://zilesinopti.ro/evenimente/bucharest-downtown-christmas-market/
 
 Event: Aventurile lui Apolodor
 Category: Theater
-Description: A theatrical adaptation of a beloved children's story.
+Description: A theatrical performance for children.
 Target Audience: General.
 Date: 2025-12-07 11:00
 Location: Muzeul National Tehnic Prof. ing. Dimitrie Leonida - Teatrul Vasilache
@@ -671,7 +682,7 @@ Source: https://ticketstore.ro/ro/bilete/10576/aventurile-lui-apolodor
 
 Event: Iubire dublu distilata
 Category: Theater
-Description: A romantic comedy exploring love and relationships.
+Description: A romantic comedy play.
 Target Audience: General.
 Date: 2025-12-07 16:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -682,7 +693,7 @@ Source: https://ticketstore.ro/ro/bilete/10229/iubire-dublu-distilata
 
 Event: ROMEO SI JULIETA
 Category: Theater
-Description: A classic tale of love and tragedy.
+Description: A classic love story performance.
 Target Audience: General.
 Date: 2025-12-07 18:00
 Location: Teatrul National de Opereta si Musical Ion Dacian
@@ -691,20 +702,9 @@ Source: https://ticketstore.ro/ro/bilete/9261/romeo-si-julieta
 
 ------------------------------------------------
 
-Event: SEX MOTEL
-Category: Theater
-Description: A comedic exploration of relationships.
-Target Audience: General.
-Date: 2025-12-07 19:00
-Location: Muzeul National Tehnic Prof. ing. Dimitrie Leonida - Teatrul Vasilache
-Cost: Free / Check Link
-Source: https://ticketstore.ro/ro/bilete/10200/sex-motel
-
-------------------------------------------------
-
 Event: The Brainstorm - Partea II
 Category: Theater
-Description: A thought-provoking performance.
+Description: A thought-provoking theatrical performance.
 Target Audience: General.
 Date: 2025-12-07 19:00
 Location: Sala Luceafarul
@@ -713,9 +713,20 @@ Source: https://ticketstore.ro/ro/bilete/10500/the-brainstorm-partea-ii-sala-luc
 
 ------------------------------------------------
 
+Event: SEX MOTEL
+Category: Theater
+Description: A comedic play exploring relationships.
+Target Audience: General.
+Date: 2025-12-07 19:00
+Location: Muzeul National Tehnic Prof. ing. Dimitrie Leonida - Teatrul Vasilache
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10200/sex-motel
+
+------------------------------------------------
+
 Event: STEFAN BANICA - CONCERT EXTRAORDINAR DE CRACIUN 2025
 Category: Concert
-Description: A special Christmas concert by Stefan Banica.
+Description: A special Christmas concert.
 Target Audience: General.
 Date: 2025-12-07 19:30
 Location: Sala Palatului
@@ -726,7 +737,7 @@ Source: https://ticketstore.ro/ro/bilete/9600/stefan-banica-concert-extraordinar
 
 Event: Divort in ziua nuntii
 Category: Theater
-Description: A comedic take on marriage and divorce.
+Description: A comedic take on marriage.
 Target Audience: General.
 Date: 2025-12-07 19:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -737,7 +748,7 @@ Source: https://ticketstore.ro/ro/bilete/10230/divort-in-ziua-nuntii
 
 Event: REMEMBER CLASSY HITS
 Category: Concert
-Description: A nostalgic concert featuring classic hits.
+Description: A concert featuring classic hits.
 Target Audience: General.
 Date: 2025-12-08 19:00
 Location: Sala Palatului
@@ -748,7 +759,7 @@ Source: https://ticketstore.ro/ro/bilete/9938/remember-classy-hits-sala-palatulu
 
 Event: Un barbat si mai multe femei
 Category: Theater
-Description: A humorous exploration of relationships.
+Description: A comedic exploration of relationships.
 Target Audience: General.
 Date: 2025-12-08 19:30
 Location: Sala Dalles
@@ -759,7 +770,7 @@ Source: https://ticketstore.ro/ro/bilete/10430/un-barbat-si-mai-multe-femei-sala
 
 Event: Platesc in avans
 Category: Theater
-Description: A comedic play about financial dilemmas.
+Description: A humorous play about finances.
 Target Audience: General.
 Date: 2025-12-08 20:00
 Location: Sala Luceafarul
@@ -781,7 +792,7 @@ Source: https://ticketstore.ro/ro/bilete/10393/tur-cu-ghid-al-palatului-parlamen
 
 Event: Guided tour of the Parliament Palace
 Category: Tour
-Description: Explore the historic Parliament Palace.
+Description: Another guided tour of the Parliament Palace.
 Target Audience: General.
 Date: 2025-12-09 13:00
 Location: Palatul Parlamentului
@@ -792,7 +803,7 @@ Source: https://ticketstore.ro/ro/bilete/10395/guided-tour-of-the-parliament-pal
 
 Event: O idee geniala
 Category: Theater
-Description: A clever and entertaining performance.
+Description: A clever theatrical performance.
 Target Audience: General.
 Date: 2025-12-09 19:00
 Location: Sala Luceafarul
@@ -803,10 +814,10 @@ Source: https://ticketstore.ro/ro/bilete/10513/o-idee-geniala-sala-luceafarul
 
 Event: Craciunul jucariilor
 Category: Theater
-Description: A festive show for children.
+Description: A Christmas-themed children's show.
 Target Audience: General.
 Date: 2025-12-10 10:00
-Location: Teatrul Muzical Ambasadorii
+Location: Palatul National al Copiilor
 Cost: Free / Check Link
 Source: https://ticketstore.ro/ro/bilete/10432/craciunul-jucariilor-teatrul-muzical-ambasadorii
 
@@ -814,7 +825,7 @@ Source: https://ticketstore.ro/ro/bilete/10432/craciunul-jucariilor-teatrul-muzi
 
 Event: E MAGIE! De Craciun! - Concert Caritabil
 Category: Concert
-Description: A charity concert celebrating Christmas.
+Description: A charity concert for Christmas.
 Target Audience: General.
 Date: 2025-12-10 19:00
 Location: Sala Luceafarul
@@ -825,7 +836,7 @@ Source: https://ticketstore.ro/ro/bilete/10409/e-magie-de-craciun-concert-carita
 
 Event: Fanteziile sotului meu
 Category: Theater
-Description: A comedic exploration of marital fantasies.
+Description: A comedic play about marriage.
 Target Audience: General.
 Date: 2025-12-11 19:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -834,31 +845,9 @@ Source: https://ticketstore.ro/ro/bilete/10420/fanteziile-sotului-meu
 
 ------------------------------------------------
 
-Event: ANALIA SELIS CONCERT - TANGODISEEA INTERBELIC
-Category: Concert
-Description: A concert celebrating interwar tango music.
-Target Audience: General.
-Date: 2025-12-12 19:00
-Location: Gradina Alhambra
-Cost: Free / Check Link
-Source: https://ticketstore.ro/ro/bilete/10626/analia-selis-concert-tangodiseea-interbelic
-
-------------------------------------------------
-
-Event: Minciuna are picioare atat de lungi
-Category: Theater
-Description: A comedic play about deception.
-Target Audience: General.
-Date: 2025-12-12 19:00
-Location: Sala Luceafraul
-Cost: Free / Check Link
-Source: https://ticketstore.ro/ro/bilete/10498/minciuna-are-picioare-atat-de-lungi-sala-luceafraul
-
-------------------------------------------------
-
 Event: INVITATIE LA VALS – Concert în paşi de dans
 Category: Concert
-Description: A concert featuring dance performances.
+Description: A dance concert invitation.
 Target Audience: General.
 Date: 2025-12-12 19:00
 Location: Teatrul Constantin Tanase - Sala Savoy
@@ -867,9 +856,31 @@ Source: https://ticketstore.ro/ro/bilete/9550/invitatie-la-vals-concert-n-pai-de
 
 ------------------------------------------------
 
+Event: Minciuna are picioare atat de lungi
+Category: Theater
+Description: A comedic play about lies.
+Target Audience: General.
+Date: 2025-12-12 19:00
+Location: Sala Luceafraul
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10498/minciuna-are-picioare-atat-de-lungi-sala-luceafraul
+
+------------------------------------------------
+
+Event: ANALIA SELIS CONCERT - TANGODISEEA INTERBELIC
+Category: Concert
+Description: A concert featuring tango music.
+Target Audience: General.
+Date: 2025-12-12 19:00
+Location: Gradina Alhambra
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10626/analia-selis-concert-tangodiseea-interbelic
+
+------------------------------------------------
+
 Event: Barbatul perfect defect
 Category: Theater
-Description: A humorous take on the concept of perfection.
+Description: A comedic play about relationships.
 Target Audience: General.
 Date: 2025-12-12 19:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -878,9 +889,9 @@ Source: https://ticketstore.ro/ro/bilete/10287/barbatul-perfect-defect
 
 ------------------------------------------------
 
-Event: Cum a furat Grinch Craciunul - Sala Gloria - ora 10:00
+Event: Cum a furat Grinch Craciunul
 Category: Theater
-Description: A festive adaptation of the Grinch story.
+Description: A Christmas-themed children's play.
 Target Audience: General.
 Date: 2025-12-13 10:00
 Location: Sala Gloria
@@ -891,18 +902,18 @@ Source: https://ticketstore.ro/ro/bilete/9886/cum-a-furat-grinch-craciunul-sala-
 
 Event: Craciunul jucariilor
 Category: Theater
-Description: A festive show for children.
+Description: A Christmas-themed children's show.
 Target Audience: General.
 Date: 2025-12-13 11:00
-Location: Teatrul Muzical Ambasadorii
+Location: Palatul National al Copiilor - Sala Mica
 Cost: Free / Check Link
 Source: https://ticketstore.ro/ro/bilete/10187/craciunul-jucariilor-teatrul-muzical-ambasadorii
 
 ------------------------------------------------
 
-Event: Cum a furat Grinch Craciunul - Sala Gloria - ora 12:00
+Event: Cum a furat Grinch Craciunul
 Category: Theater
-Description: Another performance of the Grinch story.
+Description: A Christmas-themed children's play.
 Target Audience: General.
 Date: 2025-12-13 12:00
 Location: Sala Gloria
@@ -913,7 +924,7 @@ Source: https://ticketstore.ro/ro/bilete/10438/cum-a-furat-grinch-craciunul-sala
 
 Event: Cealalta sotie
 Category: Theater
-Description: A comedic exploration of love and fidelity.
+Description: A comedic play about relationships.
 Target Audience: General.
 Date: 2025-12-13 16:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -924,7 +935,7 @@ Source: https://ticketstore.ro/ro/bilete/10422/cealalta-sotie
 
 Event: LILIACUL
 Category: Theater
-Description: A musical performance based on a classic story.
+Description: A musical performance.
 Target Audience: General.
 Date: 2025-12-13 18:00
 Location: Teatrul National de Opereta si Musical Ion Dacian
@@ -935,7 +946,7 @@ Source: https://ticketstore.ro/ro/bilete/9262/liliacul
 
 Event: Intr-o frumoasa zi de vara
 Category: Theater
-Description: A delightful performance set in summer.
+Description: A theatrical performance.
 Target Audience: General.
 Date: 2025-12-13 19:00
 Location: Muzeul National Tehnic Prof. ing. Dimitrie Leonida - Teatrul Vasilache
@@ -946,7 +957,7 @@ Source: https://ticketstore.ro/ro/bilete/9985/intr-o-frumoasa-zi-de-vara
 
 Event: CINE L-A OTRAVIT PE TATICU?
 Category: Theater
-Description: A mystery play with comedic elements.
+Description: A comedic mystery play.
 Target Audience: General.
 Date: 2025-12-13 19:00
 Location: Sala Luceafarul
@@ -957,7 +968,7 @@ Source: https://ticketstore.ro/ro/bilete/10390/cine-l-a-otravit-pe-taticu-sala-l
 
 Event: Burlac la 40 de ani
 Category: Theater
-Description: A comedic exploration of single life at 40.
+Description: A comedic play about single life.
 Target Audience: General.
 Date: 2025-12-13 19:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -966,9 +977,9 @@ Source: https://ticketstore.ro/ro/bilete/10421/burlac-la-40-de-ani
 
 ------------------------------------------------
 
-Event: POVESTE DE IARNA - Sala Dalles - ora 10:30
+Event: POVESTE DE IARNA
 Category: Theater
-Description: A winter tale performance.
+Description: A winter-themed theatrical performance.
 Target Audience: General.
 Date: 2025-12-14 10:30
 Location: Sala Dalles
@@ -979,18 +990,18 @@ Source: https://ticketstore.ro/ro/bilete/10131/poveste-de-iarna-sala-dalles-ora-
 
 Event: Craciunul jucariilor
 Category: Theater
-Description: A festive show for children.
+Description: A Christmas-themed children's show.
 Target Audience: General.
 Date: 2025-12-14 11:00
-Location: Teatrul Muzical Ambasadorii
+Location: Palatul National al Copiilor - Sala Mica
 Cost: Free / Check Link
 Source: https://ticketstore.ro/ro/bilete/10188/craciunul-jucariilor-teatrul-muzical-ambasadorii
 
 ------------------------------------------------
 
-Event: POVESTE DE IARNA - Sala Dalles - ora 12:00
+Event: POVESTE DE IARNA
 Category: Theater
-Description: Another performance of the winter tale.
+Description: A winter-themed theatrical performance.
 Target Audience: General.
 Date: 2025-12-14 12:00
 Location: Sala Dalles
@@ -1012,7 +1023,7 @@ Source: https://ticketstore.ro/ro/bilete/10066/marea-abureala
 
 Event: Portretul lui Dorian Gray
 Category: Theater
-Description: A dramatic adaptation of a classic novel.
+Description: A theatrical adaptation of a classic novel.
 Target Audience: General.
 Date: 2025-12-14 18:00
 Location: Mojo Music Club
@@ -1023,7 +1034,7 @@ Source: https://ticketstore.ro/ro/bilete/9538/portretul-lui-dorian-gray-mojo-mus
 
 Event: LILIACUL
 Category: Theater
-Description: A musical performance based on a classic story.
+Description: A musical performance.
 Target Audience: General.
 Date: 2025-12-14 18:00
 Location: Teatrul National de Opereta si Musical Ion Dacian
@@ -1032,20 +1043,9 @@ Source: https://ticketstore.ro/ro/bilete/9263/liliacul
 
 ------------------------------------------------
 
-Event: The Brainstorm - Partea I
-Category: Theater
-Description: A thought-provoking performance.
-Target Audience: General.
-Date: 2025-12-14 19:00
-Location: Sala Luceafarul
-Cost: Free / Check Link
-Source: https://ticketstore.ro/ro/bilete/10503/the-brainstorm-partea-i-sala-luceafarul
-
-------------------------------------------------
-
 Event: When Violin Meets Guitar - METAVIVALDI
 Category: Concert
-Description: A musical fusion performance.
+Description: A musical concert featuring violin and guitar.
 Target Audience: General.
 Date: 2025-12-14 19:00
 Location: Gradina Alhambra
@@ -1054,9 +1054,20 @@ Source: https://ticketstore.ro/ro/bilete/10345/when-violin-meets-guitar-metaviva
 
 ------------------------------------------------
 
+Event: The Brainstorm - Partea I
+Category: Theater
+Description: A thought-provoking theatrical performance.
+Target Audience: General.
+Date: 2025-12-14 19:00
+Location: Sala Luceafarul
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10503/the-brainstorm-partea-i-sala-luceafarul
+
+------------------------------------------------
+
 Event: Infidelii
 Category: Theater
-Description: A comedic exploration of infidelity.
+Description: A comedic play about infidelity.
 Target Audience: General.
 Date: 2025-12-14 19:30
 Location: Teatrul Rosu - Str. Baratiei 31
@@ -1065,14 +1076,36 @@ Source: https://ticketstore.ro/ro/bilete/10302/infidelii
 
 ------------------------------------------------
 
+Event: Bambi – Povestea padurii
+Category: Theater
+Description: A children's play based on a classic story.
+Target Audience: General.
+Date: 2025-12-15 10:00
+Location: Palatul National al Copiilor
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10177/bambi-povestea-padurii
+
+------------------------------------------------
+
 Event: XMAS 2.5 – Un Crăciun fără Crăciun
 Category: Theater
-Description: A unique Christmas performance.
+Description: A Christmas-themed children's show.
 Target Audience: General.
 Date: 2025-12-15 11:00
 Location: Palatul National al Copiilor - Sala Mica
 Cost: Free / Check Link
 Source: https://ticketstore.ro/ro/bilete/10387/xmas-2-5-un-crciun-fr-crciun
+
+------------------------------------------------
+
+Event: The Brainstorm - Partea I
+Category: Theater
+Description: A thought-provoking theatrical performance.
+Target Audience: General.
+Date: 2025-12-15 19:00
+Location: Sala Luceafarul
+Cost: Free / Check Link
+Source: https://ticketstore.ro/ro/bilete/10502/the-brainstorm-partea-i-sala-luceafarul
 
 ------------------------------------------------
 
@@ -1133,7 +1166,7 @@ Source: https://berariah.ro/ev/private-event-251208
 
 Event: Jazzy Tuesday with Puiu Pascu, Virgil Popescu, Titi Herescu Trio
 Category: Concert
-Description: Show 100% instrumental cu Jazz Trio.
+Description: Jazz Trio aduc acordurile și ritmurile autentice ale jazz-ului.
 Target Audience: General.
 Date: 2025-12-09 17:00
 Location: Berăria H
@@ -1144,7 +1177,7 @@ Source: https://berariah.ro/ev/jazzy-tuesday-2025
 
 Event: BOSQUITO în concert
 Category: Concert
-Description: O seară cu hituri, energie și vibe latin-rock.
+Description: O seară cu hituri, energie și vibe latin-rock autentic!
 Target Audience: General.
 Date: 2025-12-10 18:00
 Location: Berăria H
@@ -1155,7 +1188,7 @@ Source: https://berariah.ro/ev/bosquito-concert-bucuresti-2025
 
 Event: Joia la Berărie
 Category: Party
-Description: Ieșit, relaxat și voie bună!
+Description: Joia e pentru ieșit, relaxat și voie bună!
 Target Audience: General.
 Date: 2025-12-11 12:00
 Location: Berăria H
@@ -1188,7 +1221,7 @@ Source: https://berariah.ro/ev/concert-jean-craiova-251212
 
 Event: Jazzy Saturday with Puiu Pascu, Virgil Popescu, Titi Herescu Trio
 Category: Concert
-Description: Show 100% instrumental cu Jazz Trio.
+Description: Acordurile și ritmurile elegante ale jazz-ului.
 Target Audience: General.
 Date: 2025-12-13 12:00
 Location: Berăria H
@@ -1232,7 +1265,7 @@ Source: https://berariah.ro/ev/concert-fane-dumitrache-taraf-251214
 
 Event: Bucurie cu o Jucărie 2025
 Category: Concert
-Description: Eveniment organizat de Asociația BGS.
+Description: Oferă „Bucurie cu o Jucărie” în cadrul tradiționalului eveniment.
 Target Audience: General.
 Date: 2025-12-15 18:00
 Location: Berăria H
@@ -1243,7 +1276,7 @@ Source: https://berariah.ro/ev/bucurie-cu-o-jucarie-2025
 
 Event: Dublu Show Lăutăresc: Ionel Tudorache & Taraf de Caliu
 Category: Concert
-Description: O seară plină de emoție și voie bună.
+Description: O seară plină de emoție și voie bună!
 Target Audience: General.
 Date: 2025-12-16 18:00
 Location: Berăria H
@@ -1254,7 +1287,7 @@ Source: https://berariah.ro/ev/show-lautaresc-ionel-tudorache-caliu
 
 Event: Carmen Chindriș & Taraful Rutenilor LIVE
 Category: Concert
-Description: O seară plină de energie și muzică.
+Description: O seară plină de energie, muzică și voie bună!
 Target Audience: General.
 Date: 2025-12-17 18:00
 Location: Berăria H
@@ -1265,7 +1298,7 @@ Source: https://berariah.ro/ev/carmen-chindris-taraful-rutenilor-live-bh25
 
 Event: Horia Brenciu & HB Orchestra în concert
 Category: Concert
-Description: Un show plin de energie și hituri.
+Description: Un show plin de energie, emoție și hituri.
 Target Audience: General.
 Date: 2025-12-18 18:00
 Location: Berăria H
@@ -1276,7 +1309,7 @@ Source: https://berariah.ro/ev/horia-brenciu-concert-2025
 
 Event: Vinerea la Berărie
 Category: Party
-Description: Vinerea e pentru relaxare și povești între prieteni.
+Description: Vinerea e pentru relaxare și povești între prieteni!
 Target Audience: General.
 Date: 2025-12-19 12:00
 Location: Berăria H
@@ -1298,7 +1331,7 @@ Source: https://berariah.ro/ev/closed-private-event-251219
 
 Event: Back to the 2000s: Liviu Vârciu & L.A | Trupa Angels | Nicola
 Category: Concert
-Description: O seară plină de hituri și nostalgie.
+Description: O seară plină de hituri, nostalgie și chef de viață!
 Target Audience: General.
 Date: 2025-12-20 18:00
 Location: Berăria H
@@ -1309,7 +1342,7 @@ Source: https://berariah.ro/ev/concert-liviu-varciu-la-angels-nicola
 
 Event: Bogdan de la Ploiești LIVE
 Category: Concert
-Description: Concert live plin de energie și hituri.
+Description: Un concert live plin de energie și atmosferă incendiară!
 Target Audience: General.
 Date: 2025-12-21 19:00
 Location: Berăria H
@@ -1320,7 +1353,7 @@ Source: https://berariah.ro/ev/concert-bogdan-dlp-251221
 
 Event: Mihai Mărgineanu în concert
 Category: Concert
-Description: Concert cu trupa la Berăria H.
+Description: Mihai Mărgineanu vine alături de trupa sa.
 Target Audience: General.
 Date: 2025-12-22 17:30
 Location: Berăria H
@@ -1331,12 +1364,23 @@ Source: https://berariah.ro/ev/concert-mihai-margineanu-2025
 
 Event: Cargo Christmas Rock 2025
 Category: Concert
-Description: O seară plină de energie și hituri clasice.
+Description: O seară memorabilă, plină de energie și hituri clasice.
 Target Audience: General.
 Date: 2025-12-23 18:00
 Location: Berăria H
 Cost: Free / Check Link
 Source: https://berariah.ro/ev/cargo-christmas-rock-2025-concert
+
+------------------------------------------------
+
+Event: Christmas Eve with Elvis @Berăria H | Tribute Concert
+Category: Concert
+Description: Petrecem în ajun de Crăciun cu un super concert tribut Elvis Presley.
+Target Audience: General.
+Date: 2025-12-24 18:00
+Location: Berăria H
+Cost: Free / Check Link
+Source: https://berariah.ro/ev/christmas-elvis-tribute-2025
 
 ------------------------------------------------
 

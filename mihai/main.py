@@ -58,12 +58,7 @@ def parse_event_text(raw_text):
     )
 
 def strip_command_from_text(text):
-    """
-    Removes any line containing 'SEARCH_ACTION' from the text
-    so the user doesn't see the robot commands.
-    """
     lines = text.split('\n')
-    # Keep only lines that DO NOT contain the command
     clean_lines = [line for line in lines if "SEARCH_ACTION" not in line.upper()]
     return "\n".join(clean_lines).strip()
 
@@ -84,16 +79,41 @@ async def chat_endpoint(req: ChatRequest):
     # 2. Add User Message
     agent.chat_history.append(HumanMessage(content=req.message))
     
+    # --- UPDATED GUARDRAIL: LOGIC FLOW ---
+    # This forces the AI to evaluate "Slots" before executing a search.
+    reminder_msg = SystemMessage(content="""
+    [DECISION PROTOCOL]
+    Stop and analyze the request before generating a response. Follow this priority order:
+
+    1. **CHECK FOR CONTINUATION**: 
+       - If the user is asking for "more", "next", "other options", or refining an existing search -> **OUTPUT 'SEARCH_ACTION'**.
+
+    2. **CHECK FOR MISSING DATA**:
+       - Identify if these 3 specific details are present in the conversation so far:
+         [ ] LOCATION (Which city or neighborhood?)
+         [ ] TIME (Today, this weekend, specific date?)
+         [ ] BUDGET (Free, cheap, high-end?)
+
+    3. **EXECUTE LOGIC**:
+       - IF any detail is MISSING and the user has NOT explicitly said "any", "whatever", or "surprise me" -> **DO NOT SEARCH**. Instead, ask a friendly question to get the missing detail.
+       - IF all details are present OR the user said "any" -> **OUTPUT 'SEARCH_ACTION'**.
+    """)
+    
+    agent.chat_history.append(reminder_msg)
+    
     # 3. LLM Thinking
     ai_response = agent.llm.invoke(agent.chat_history)
     ai_text = ai_response.content
     
+    # --- CLEANUP ---
+    if agent.chat_history and agent.chat_history[-1] == reminder_msg:
+        agent.chat_history.pop()
+
     events_to_return = []
     final_text = ai_text
     mission_complete = False
 
     # 4. Logic Loop
-    # Check for command (case insensitive)
     if "SEARCH_ACTION" in ai_text.upper():
         
         # Extract Query
@@ -101,7 +121,6 @@ async def chat_endpoint(req: ChatRequest):
         if "SEARCH_ACTION:" in clean_text_for_parsing:
             query = clean_text_for_parsing.split("SEARCH_ACTION:")[1].strip()
         else:
-            # Fallback if format is weird
             query = clean_text_for_parsing.replace("SEARCH_ACTION", "").strip()
         
         # Retrieve large batch
@@ -110,7 +129,6 @@ async def chat_endpoint(req: ChatRequest):
         # FILTER: Exclude seen events
         new_events = []
         for raw in raw_events:
-            # Create a simple hash/signature of the event to check uniqueness
             if raw not in session_data["seen_events"]:
                 new_events.append(raw)
         
@@ -128,7 +146,6 @@ async def chat_endpoint(req: ChatRequest):
         if events_to_return:
             agent.chat_history.append(AIMessage(content="SEARCH_EXECUTED"))
             
-            # Contextual Prompt
             if len(session_data["seen_events"]) > 2:
                 sys_msg = "SYSTEM: You just showed 2 MORE events. Briefly ask if these are better."
             else:
@@ -137,23 +154,19 @@ async def chat_endpoint(req: ChatRequest):
             agent.chat_history.append(SystemMessage(content=sys_msg))
             follow_up = agent.llm.invoke(agent.chat_history)
             
-            # This is the text we will show
             final_text = follow_up.content
             agent.chat_history.append(follow_up)
         else:
-            # No new events found
             final_text = "I've run out of new events matching that vibe! Should we try a different category?"
             
     elif "MISSION_COMPLETE" in ai_text:
         final_text = "Mission Complete! Have a great time! 🎉"
         mission_complete = True
     else:
-        # Standard chat (no search)
+        # Standard chat
         agent.chat_history.append(ai_response)
         final_text = ai_text
 
-    # --- FINAL CLEANUP ---
-    # Ensure no commands leak to the frontend
     final_text = strip_command_from_text(final_text)
 
     return ChatResponse(
