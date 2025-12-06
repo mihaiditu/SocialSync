@@ -5,20 +5,20 @@ from typing import List, Optional, Any
 from fastapi.middleware.cors import CORSMiddleware
 from rag_logic import SocialSyncAgent
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+import hashlib
+import re
 
 app = FastAPI()
 
-# Allow React to talk to this server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"], # React's default port
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Global store for demo purposes (In production, use a database/Redis)
-# This maps a "session_id" to an agent instance.
+# SESSION STORE
 sessions = {}
 
 class ChatRequest(BaseModel):
@@ -38,8 +38,9 @@ class ChatResponse(BaseModel):
     events: List[EventData] = []
     mission_complete: bool = False
 
+# --- HELPERS ---
+
 def parse_event_text(raw_text):
-    """Parses the raw text block from ChromaDB into a structured dict."""
     lines = raw_text.split('\n')
     info = {}
     for line in lines:
@@ -56,18 +57,34 @@ def parse_event_text(raw_text):
         url=info.get("Source", "#")
     )
 
+def strip_command_from_text(text):
+    """
+    Removes any line containing 'SEARCH_ACTION' from the text
+    so the user doesn't see the robot commands.
+    """
+    lines = text.split('\n')
+    # Keep only lines that DO NOT contain the command
+    clean_lines = [line for line in lines if "SEARCH_ACTION" not in line.upper()]
+    return "\n".join(clean_lines).strip()
+
+# --- ENDPOINTS ---
+
 @app.post("/chat", response_model=ChatResponse)
 async def chat_endpoint(req: ChatRequest):
-    # 1. Get or Create Agent
+    # 1. Initialize Session
     if req.session_id not in sessions:
-        sessions[req.session_id] = SocialSyncAgent()
+        sessions[req.session_id] = {
+            "agent": SocialSyncAgent(),
+            "seen_events": set()
+        }
     
-    agent = sessions[req.session_id]
+    session_data = sessions[req.session_id]
+    agent = session_data["agent"]
     
-    # 2. Add User Message to History
+    # 2. Add User Message
     agent.chat_history.append(HumanMessage(content=req.message))
     
-    # 3. Initial LLM Call
+    # 3. LLM Thinking
     ai_response = agent.llm.invoke(agent.chat_history)
     ai_text = ai_response.content
     
@@ -75,34 +92,69 @@ async def chat_endpoint(req: ChatRequest):
     final_text = ai_text
     mission_complete = False
 
-    # 4. Logic Loop (Search / Complete)
+    # 4. Logic Loop
+    # Check for command (case insensitive)
     if "SEARCH_ACTION" in ai_text.upper():
-        # --- Handle Search ---
-        clean_text = ai_text.replace("**SEARCH_ACTION:**", "SEARCH_ACTION:")
-        query = clean_text.split("SEARCH_ACTION:")[1].strip() if "SEARCH_ACTION:" in clean_text else clean_text
         
-        # Retrieve raw strings
-        raw_events = agent.retrieve_events(query, k=3)
+        # Extract Query
+        clean_text_for_parsing = ai_text.replace("**SEARCH_ACTION:**", "SEARCH_ACTION:")
+        if "SEARCH_ACTION:" in clean_text_for_parsing:
+            query = clean_text_for_parsing.split("SEARCH_ACTION:")[1].strip()
+        else:
+            # Fallback if format is weird
+            query = clean_text_for_parsing.replace("SEARCH_ACTION", "").strip()
         
-        # Convert raw strings to Structured Data for React
-        events_to_return = [parse_event_text(e) for e in raw_events]
+        # Retrieve large batch
+        raw_events = agent.retrieve_events(query)
         
-        # Agent Follow-up
+        # FILTER: Exclude seen events
+        new_events = []
+        for raw in raw_events:
+            # Create a simple hash/signature of the event to check uniqueness
+            if raw not in session_data["seen_events"]:
+                new_events.append(raw)
+        
+        # SLICE: Take top 2
+        events_to_show = new_events[:2]
+        
+        # Mark as seen
+        for ev in events_to_show:
+            session_data["seen_events"].add(ev)
+
+        # Parse for Frontend
+        events_to_return = [parse_event_text(e) for e in events_to_show]
+        
+        # Generate Follow-up Text
         if events_to_return:
             agent.chat_history.append(AIMessage(content="SEARCH_EXECUTED"))
-            agent.chat_history.append(SystemMessage(content="SYSTEM: Events found. Ask user for feedback."))
+            
+            # Contextual Prompt
+            if len(session_data["seen_events"]) > 2:
+                sys_msg = "SYSTEM: You just showed 2 MORE events. Briefly ask if these are better."
+            else:
+                sys_msg = "SYSTEM: You just showed the first 2 options. Briefly ask for thoughts."
+
+            agent.chat_history.append(SystemMessage(content=sys_msg))
             follow_up = agent.llm.invoke(agent.chat_history)
+            
+            # This is the text we will show
             final_text = follow_up.content
             agent.chat_history.append(follow_up)
         else:
-            final_text = "I couldn't find any events matching that. Could you refine your request?"
+            # No new events found
+            final_text = "I've run out of new events matching that vibe! Should we try a different category?"
             
     elif "MISSION_COMPLETE" in ai_text:
         final_text = "Mission Complete! Have a great time! 🎉"
         mission_complete = True
     else:
-        # Standard Chat
+        # Standard chat (no search)
         agent.chat_history.append(ai_response)
+        final_text = ai_text
+
+    # --- FINAL CLEANUP ---
+    # Ensure no commands leak to the frontend
+    final_text = strip_command_from_text(final_text)
 
     return ChatResponse(
         text=final_text, 
@@ -112,7 +164,10 @@ async def chat_endpoint(req: ChatRequest):
 
 @app.post("/reset")
 async def reset_chat(req: ChatRequest):
-    sessions[req.session_id] = SocialSyncAgent()
+    sessions[req.session_id] = {
+        "agent": SocialSyncAgent(),
+        "seen_events": set()
+    }
     return {"status": "reset"}
 
 if __name__ == "__main__":

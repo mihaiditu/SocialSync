@@ -9,5 +9,3 @@ __pycache__/
 *.pyc
 
 ./chroma_db
-
-../setup_data.py

@@ -6,9 +6,18 @@ import { Send, RefreshCw, Bot } from 'lucide-react';
 const SESSION_ID = "user-session-1";
 
 function App() {
-  const [messages, setMessages] = useState([
-    { role: 'assistant', text: "Hi! I'm SocialSync. I'm here to connect you with your tribe. Tell me, what's on your mind?", events: [] }
-  ]);
+  // 1. STATE: Initialize from LocalStorage if available
+  const [messages, setMessages] = useState(() => {
+    const saved = localStorage.getItem("chat_history");
+    if (saved) {
+      return JSON.parse(saved);
+    } else {
+      return [
+        { role: 'assistant', text: "Hi! I'm SocialSync. I'm here to connect you with your tribe. Tell me, what's on your mind?", events: [] }
+      ];
+    }
+  });
+
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
@@ -16,6 +25,11 @@ function App() {
   // REFS
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+
+  // 2. EFFECT: Save to LocalStorage whenever messages change
+  useEffect(() => {
+    localStorage.setItem("chat_history", JSON.stringify(messages));
+  }, [messages]);
 
   // SCROLL TO BOTTOM
   const scrollToBottom = () => {
@@ -64,11 +78,15 @@ function App() {
   };
 
   const handleReset = async () => {
+    // 3. LOGIC: Clear LocalStorage and Reset Backend
+    localStorage.removeItem("chat_history");
+
     await fetch('http://localhost:8000/reset', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: "", session_id: SESSION_ID })
     });
+    
     setMessages([{ role: 'assistant', text: "Hi! I'm SocialSync. I'm here to connect you with your tribe. Tell me, what's on your mind?", events: [] }]);
     setIsComplete(false);
     setIsLoading(false);
@@ -96,7 +114,8 @@ function App() {
       <div className="flex-1 flex flex-col max-w-5xl mx-auto w-full bg-gray-900 h-screen relative">
         
         {/* Messages List */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
+        {/* NOTE: 'custom-scrollbar' class relies on the CSS added in index.css */}
+        <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
           {messages.map((msg, idx) => (
             <div key={idx} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
               <div className={`max-w-[85%] ${
