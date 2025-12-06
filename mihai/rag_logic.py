@@ -42,6 +42,8 @@ class SocialSyncAgent:
         - If NO: Ask what they want to change.
         """
         self.chat_history = [SystemMessage(content=self.system_prompt)]
+        self.llm = llm # <--- ADD THIS LINE so app.py can use the brain
+        self.chat_history = [SystemMessage(content=self.system_prompt)]
 
     def retrieve_events(self, search_query, k=3):
         print(f"   [DEBUG: Agent triggered search for: '{search_query}']")

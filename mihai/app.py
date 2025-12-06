@@ -1,81 +1,173 @@
 import streamlit as st
-from dotenv import load_dotenv
-from core_logic import clasifica_personalitate, agent_router_response
+import time
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
-load_dotenv()
+# Import your actual backend
+from rag_logic import SocialSyncAgent
 
-st.set_page_config(page_title="SocialSync AI", page_icon="🤝")
+st.set_page_config(page_title="SocialSync AI", page_icon="🤝", layout="wide")
 
-st.title("🤝 SocialSync AI")
-st.markdown("### Your Personal Social Assistant")
-st.markdown("---")
+# --- CUSTOM CSS FOR "CHAT BUBBLES" ---
+st.markdown("""
+<style>
+    .stChatMessage {
+        padding: 1rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    .event-card {
+        background-color: #f0f2f6;
+        border-left: 5px solid #ff4b4b;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        color: #31333F;
+    }
+    .event-title {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #000;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-# --- STATE INITIALIZATION ---
-if "messages" not in st.session_state:
-    st.session_state.messages = [{
-        "role": "assistant", 
-        "content": "Hi! I'm SocialSync AI. To help you find the best events, I need to get to know you a little bit.\n\n**Tell me, what kind of activities energize you? Do you prefer large, loud groups or smaller, intimate gatherings?**"
-    }]
-if "personalitate" not in st.session_state:
-    st.session_state["personalitate"] = None
-if "mod_recomandare" not in st.session_state:
-    st.session_state["mod_recomandare"] = False
-
-# --- INFO SIDEBAR ---
+# --- SIDEBAR INFO ---
 with st.sidebar:
-    st.header("Profile Status")
-    if st.session_state["personalitate"]:
-        st.success(f"Personality Type: **{st.session_state['personalitate']}**")
-        st.info("You can now ask for recommendations (e.g., 'something under 50 RON' or 'a quiet book club').")
-    else:
-        st.warning("Assessment in progress... Please answer the chat questions.")
-    
+    st.image("https://img.icons8.com/clouds/200/handshake.png", width=100)
+    st.title("SocialSync")
+    st.markdown("### The Anti-Loneliness Agent")
     st.markdown("---")
-    st.markdown("**How it works:**\n1. You answer a few questions.\n2. The AI determines your social style.\n3. A smart 'Router' decides whether to query the SQL database (for price/dates) or the RAG system (for interests/vibes).")
+    st.info("""
+    **How it works:**
+    1. Chat with the AI.
+    2. It learns your **Vibe**, **Schedule**, and **Budget**.
+    3. It scans local events (RAG).
+    4. It connects you with your tribe.
+    """)
+    if st.button("Reset Conversation"):
+        st.session_state.agent = SocialSyncAgent()
+        st.session_state.messages = []
+        st.rerun()
 
-# --- DISPLAY CHAT HISTORY ---
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+# --- INITIALIZATION ---
+# We store the AGENT OBJECT in the session state so it remembers context
+if "agent" not in st.session_state:
+    st.session_state.agent = SocialSyncAgent()
 
-# --- MAIN CHAT LOGIC ---
-if prompt := st.chat_input("Type your message here..."):
-    # 1. Add user message
+# We store the DISPLAY MESSAGES separately for the UI
+if "messages" not in st.session_state:
+    st.session_state.messages = [
+        {"role": "assistant", "content": "Hi! I'm SocialSync. I'm here to connect you with your tribe. Tell me, what's on your mind?"}
+    ]
+
+# --- HELPER: FORMAT EVENTS FOR UI ---
+def format_event_markdown(raw_text):
+    """Turns raw text into a pretty Streamlit card"""
+    lines = raw_text.split('\n')
+    info = {}
+    for line in lines:
+        if ": " in line:
+            key, val = line.split(": ", 1)
+            info[key.strip()] = val.strip()
+
+    title = info.get("Event", "Unknown Event")
+    date = info.get("Date", "TBD")
+    loc = info.get("Location", "Check URL")
+    cost = info.get("Cost", "Free")
+    url = info.get("Source", "#")
+    desc = info.get("Description", "")
+
+    return f"""
+    <div class="event-card">
+        <div class="event-title">🏆 {title}</div>
+        <p>📅 <b>When:</b> {date} | 📍 <b>Where:</b> {loc}</p>
+        <p>💰 <b>Cost:</b> {cost}</p>
+        <p>📝 <i>{desc}</i></p>
+        <a href="{url}" target="_blank">🔗 View Event Details</a>
+    </div>
+    """
+
+# --- MAIN CHAT LOOP ---
+st.title("🤝 SocialSync AI")
+
+# 1. Display Chat History
+for msg in st.session_state.messages:
+    with st.chat_message(msg["role"]):
+        if msg.get("is_html"):
+            st.markdown(msg["content"], unsafe_allow_html=True)
+        else:
+            st.markdown(msg["content"])
+
+# 2. Handle User Input
+if prompt := st.chat_input("Type your answer..."):
+    
+    # A. Display User Message
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # 2. Personality Assessment Flow (first 2 exchanges)
-    if not st.session_state["mod_recomandare"]:
-        user_messages_count = len([m for m in st.session_state.messages if m["role"] == "user"])
-        
-        if user_messages_count < 2:
-            # Follow-up question
-            response = "Got it. And what are your main hobbies? What do you usually like to do on weekends?"
-            st.session_state.messages.append({"role": "assistant", "content": response})
-            with st.chat_message("assistant"):
-                st.markdown(response)
-        
-        else:
-            # Classification
-            with st.chat_message("assistant"):
-                with st.spinner("Analyzing your answers to understand your style..."):
-                    istoric_text = "\n".join([f"{m['role']}: {m['content']}" for m in st.session_state.messages])
-                    tip_personalitate = clasifica_personalitate(istoric_text)
-                    
-                    st.session_state["personalitate"] = tip_personalitate
-                    st.session_state["mod_recomandare"] = True 
-                    
-                    response = f"All set! Based on what you said, I think you fit best as an: **{tip_personalitate}**.\n\nFrom now on, you can ask for specific recommendations. You can ask about budget (e.g., 'anything free this weekend') or atmosphere (e.g., 'I want a place to meet new people')."
-                    st.markdown(response)
-                    st.session_state.messages.append({"role": "assistant", "content": response})
-                    st.rerun()
+    # B. Pass to Agent Backend
+    # Add to LangChain history
+    st.session_state.agent.chat_history.append(HumanMessage(content=prompt))
 
-    # 3. Recommendation Flow (Agent Router)
-    else:
-        with st.chat_message("assistant"):
-            status_msg, final_response = agent_router_response(prompt, st.session_state["personalitate"])
+    with st.chat_message("assistant"):
+        with st.spinner("SocialSync is thinking..."):
             
-            st.caption(status_msg) 
-            st.markdown(final_response)
-            st.session_state.messages.append({"role": "assistant", "content": final_response})
+            # CALL THE BRAIN
+            ai_response = st.session_state.agent.llm.invoke(st.session_state.agent.chat_history)
+            ai_text = ai_response.content
+            
+            # --- AGENT ACTION LOGIC ---
+            
+            # CASE 1: SEARCH ACTION
+            if "SEARCH_ACTION:" in ai_text:
+                search_query = ai_text.split("SEARCH_ACTION:")[1].strip()
+                status_placeholder = st.empty()
+                status_placeholder.info(f"🏁 Agent Decision: Searching database for '{search_query}'...")
+                
+                # Perform Search
+                events = st.session_state.agent.retrieve_events(search_query, k=2)
+                
+                # Fallback
+                if not events:
+                    status_placeholder.warning("Broadening search criteria...")
+                    events = st.session_state.agent.retrieve_events(search_query, k=50)
+                    if events: events = [events[0]] # Just take top 1 if broad
+
+                if events:
+                    status_placeholder.success("Found matches!")
+                    
+                    # Render Events
+                    for event in events:
+                        card_html = format_event_markdown(event)
+                        st.markdown(card_html, unsafe_allow_html=True)
+                        st.session_state.messages.append({"role": "assistant", "content": card_html, "is_html": True})
+
+                    # Inject Context back to Brain
+                    st.session_state.agent.chat_history.append(AIMessage(content="SEARCH_ACTION_EXECUTED"))
+                    st.session_state.agent.chat_history.append(SystemMessage(content="SYSTEM: Results shown. Ask the user if they like them."))
+                    
+                    # Get Follow-up Question
+                    follow_up = st.session_state.agent.llm.invoke(st.session_state.agent.chat_history)
+                    st.markdown(follow_up.content)
+                    st.session_state.messages.append({"role": "assistant", "content": follow_up.content})
+                    st.session_state.agent.chat_history.append(follow_up)
+                
+                else:
+                    status_placeholder.error("No events found. Asking user for different preferences.")
+                    st.session_state.agent.chat_history.append(SystemMessage(content="SYSTEM: No results found. Apologize and ask user to refine."))
+                    follow_up = st.session_state.agent.llm.invoke(st.session_state.agent.chat_history)
+                    st.markdown(follow_up.content)
+                    st.session_state.messages.append({"role": "assistant", "content": follow_up.content})
+
+            # CASE 2: MISSION COMPLETE
+            elif "MISSION_COMPLETE" in ai_text:
+                st.balloons()
+                st.success("Mission Complete! Have fun out there! 🎉")
+                st.session_state.messages.append({"role": "assistant", "content": "Mission Complete! Have fun out there! 🎉"})
+
+            # CASE 3: NORMAL CONVERSATION
+            else:
+                st.markdown(ai_text)
+                st.session_state.messages.append({"role": "assistant", "content": ai_text})
+                st.session_state.agent.chat_history.append(ai_response)

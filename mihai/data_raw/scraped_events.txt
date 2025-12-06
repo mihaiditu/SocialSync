@@ -1,143 +1,220 @@
 Event: Acces General Expoziție | Întâlniri. Sau cum se naște o lume nouă
-Category: Expoziție
-Description: O expoziție emoționantă deschisă publicului.
+Category: Exhibition
+Description: Emoționantă expoziție deschisă publicului.
 Target Audience: General.
 Date: 2025-10-31 00:00
 Location: La Mița Biciclista Stabiliment Creativ
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-acces-general-expozitie-intalniri-sau-cum-se-naste-o-lume-noua-117599/
 
 ------------------------------------------------
 
 Event: Vizită Ghidată Expoziție | Întâlniri. Sau cum se naște o lume nouă
-Category: Expoziție
-Description: O expoziție emoționantă deschisă publicului.
+Category: Exhibition
+Description: Ghidată expoziție deschisă publicului.
 Target Audience: General.
 Date: 2025-10-31 00:00
 Location: La Mița Biciclista Stabiliment Creativ
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-vizita-ghidata-expozitie-intalniri-sau-cum-se-naste-o-lume-noua-117601/
 
 ------------------------------------------------
 
 Event: Winter cult & Chaos weekend - Magie gotică, comedie cult și Crăciun alternativ
-Category: Festival
-Description: Magia iernii cu emoție, comedie și fantezie.
+Category: Event
+Description: Magia iernii cu emoție și fantezie.
 Target Audience: General.
 Date: 2025-12-05 00:00
 Location: Cinema Europa
 Cost: 15 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Source: https://www.iabilet.ro/bilete-winter-cult-chaos-weekend-magie-gotica-comedie-cult-si-craciun-alternativ-114822/
 
 ------------------------------------------------
 
 Event: Balkanique Party • Heavy Yard
 Category: Party
-Description: Energia pură a tehnomanelelor!
+Description: Energia pură a tehnomanelelor.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Heavy Yard
-Cost: 53.03 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: 53 RON
+Source: https://www.iabilet.ro/bilete-balkanique-party-o-heavy-yard-119653/
 
 ------------------------------------------------
 
-Event: Cosmin Lupu and friends | Concert acustic exclusiv - piese noi in premiera
+Event: Cosmin Lupuand friends | Concert acustic exclusiv - piese noi in premiera
 Category: Concert
 Description: Concert acustic cu piese noi.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Encore
-Cost: 53.03 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: 53 RON
+Source: https://www.iabilet.ro/bilete-cosmin-lupu-and-friends-concert-acustic-exclusiv-piese-noi-in-premiera-118902/
 
 ------------------------------------------------
 
 Event: Petrecerea de Craciun a lui Pettson si Findus
-Category: Teatru
+Category: Theater
 Description: Spectacol dedicat sărbătorilor.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Teatrul Coquette
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-petrecerea-de-craciun-a-lui-pettson-si-findus-118469/
 
 ------------------------------------------------
 
 Event: Augustin - Magicianul Copiilor
-Category: Teatru
-Description: O oră plină de zâmbete și uimire.
+Category: Theater
+Description: Spectacol plin de zâmbete și uimire.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Sala Gloria
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-augustin-magicianul-copiilor-119003/
 
 ------------------------------------------------
 
-Event: Aventurile lui Pingolino
-Category: Teatru
-Description: Poveste despre prietenia dintre Pingolino și Tigruțul.
+Event: Aventurile lui Pingolinoteatru pentru copii @ Clubul Țăranului – La Mama
+Category: Theater
+Description: Poveste despre prietenia dintre Pinguinul Pingolino și Tigruțul.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: La Mama - Clubul Țăranului
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-aventurile-lui-pingolino-teatru-pentru-copii-clubul-taranului-la-mama-116357/
 
 ------------------------------------------------
 
 Event: LumiLand - Miracol de Crǎciun - Petrecerea Spiriduşilor LumiLunzi
-Category: Teatru
-Description: Petrecerea Spiriduşilor LumiLunzi.
+Category: Theater
+Description: Petrecerea Spiriduşilor în Ajunul Crăciunului.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Lumiland - Teatru pentru copii
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-lumiland-miracol-de-craciun-petrecerea-spiridusilor-lumilunzi-119423/
 
 ------------------------------------------------
 
-Event: Stand-up Comedy cu Teo, Costel, Mihai Bobonete - Gabi Dumitriu
-Category: Stand-up
-Description: O seară de stand-up comedy.
+Event: PATT - Coregraful Ateez @ Dance Workshop
+Category: Workshop
+Description: Patt revine pentru a doua oară în România.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Challenge Arts
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-patt-coregraful-ateez-dance-workshop-117745/
+
+------------------------------------------------
+
+Event: Visul unei nopti de vara
+Category: Theater
+Description: Producție a Companiei de Teatru Concordia.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Sala Gloria
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-visul-unei-nopti-de-vara-118710/
+
+------------------------------------------------
+
+Event: The Fool: English Stand-up comedy:Ric Diez- PUNISHED
+Category: Comedy
+Description: Stand-up comedy cu Ric Diez.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: The Fool
+Cost: 42 RON
+Source: https://www.iabilet.ro/bilete-the-fool-english-stand-up-comedy-ric-diez-punished-116126/
+
+------------------------------------------------
+
+Event: Stand-up cuCristi Popesco, Toma, Sorin Pârcălab și Ioana Luizala ComicsClub!
+Category: Comedy
+Description: Multe porții de râs la ComicsClub.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Comics Club
+Cost: 54 RON
+Source: https://www.iabilet.ro/bilete-stand-up-cu-cristi-popesco-toma-sorin-parcalab-si-ioana-luiza-la-comicsclub-119256/
+
+------------------------------------------------
+
+Event: Țup, imposibil e doar un cuvânt
+Category: Theater
+Description: Poveste emoționantă pentru copii.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Centrul Independent pentru Arta Animatiei
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-tup-imposibil-e-doar-un-cuvant-119123/
+
+------------------------------------------------
+
+Event: Femei bune pentru bărbați nebuni
+Category: Theater
+Description: Alegeri stângace în viață.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Teatrul Rosu
+Cost: 69 RON
+Source: https://www.iabilet.ro/bilete-femei-bune-pentru-barbati-nebuni-117737/
+
+------------------------------------------------
+
+Event: LumiLand - Povestea Renilor lui Moș Crăciun + Petrecerea Spiriduşilor LumiLunzi
+Category: Theater
+Description: Tradiția continuă în LumiLand.
+Target Audience: General.
+Date: 2025-12-06 00:00
+Location: Lumiland - Teatru pentru copii
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-lumiland-povestea-renilor-lui-mos-craciun-petrecerea-spiridusilor-lumilunzi-119432/
+
+------------------------------------------------
+
+Event: Stand-up Comedy cu Teo, Costel, Mihai Bobonete - Gabi Dumitriu la Club 99
+Category: Comedy
+Description: Seară de stand-up comedy.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Club 99
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-stand-up-comedy-cu-teo-costel-mihai-bobonete-gabi-dumitriu-la-club-99-119637/
 
 ------------------------------------------------
 
-Event: Oscar @ Apa & Stefan III - 5 Years
+Event: Oscar@ Apa & Stefan III - 5 Years
 Category: Concert
 Description: Sărbătorim 5 ani de la lansarea albumelor.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Arenele Romane
 Cost: 250 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Source: https://www.iabilet.ro/bilete-oscar-apa-stefan-iii-5-years-117758/
 
 ------------------------------------------------
 
 Event: Baschet: CSA Steaua Sharks – CSM Tg. Jiu
-Category: Sport
+Category: Sports
 Description: Meci intens din Etapa a9-a a Cupei României.
 Target Audience: General.
 Date: 2025-12-06 00:00
-Location: Sala de Sport 'Mihai Viteazul'
+Location: Sala de Sport "Mihai Viteazul"
 Cost: 15 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Source: https://www.iabilet.ro/bilete-baschet-csa-steaua-sharks-csm-tg-jiu-119944/
 
 ------------------------------------------------
 
 Event: Crăciunul lui Nicholas
-Category: Festival
+Category: Event
 Description: Ediția a IV-a a Crăciunului lui Nicholas.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Sala Dalles
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-craciunul-lui-nicholas-114571/
 
 ------------------------------------------------
 
@@ -147,239 +224,118 @@ Description: Concert de Moș Niculae.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Teatrul National Bucuresti
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-alifantis-fragileband-poveste-de-iarna-un-concert-de-mos-niculae-116752/
 
 ------------------------------------------------
 
-Event: Sindrofia Mahamour nr. 10 cu Panseluța și Sorin
-Category: Party
-Description: Seară cu Mahamour.
+Event: SindrofiaMahamournr. 10 cu Panseluța și Sorin
+Category: Event
+Description: Seară de muzică cu Mahamour.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: True Club
-Cost: 127.26 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: 127 RON
+Source: https://www.iabilet.ro/bilete-sindrofia-mahamour-nr-10-cu-panseluta-si-sorin-118753/
 
 ------------------------------------------------
 
-Event: Magia unei chitare. Recital Maxim Belciug
+Event: Magia unei chitare. RecitalMaxim Belciug
 Category: Concert
 Description: Recital extraordinar de chitară.
 Target Audience: General.
 Date: 2025-12-06 00:00
 Location: Teatrul Coquette
-Cost: 0 RON
-Source: https://www.iabilet.ro/bilete-in-bucuresti/
+Cost: Free / Check Link
+Source: https://www.iabilet.ro/bilete-magia-unei-chitare-recital-maxim-belciug-119488/
 
 ------------------------------------------------
 
-Event: Cei trei purceluşi
-Category: Theater
-Description: A children's theater performance.
-Target Audience: General.
-Date: 2025-12-06 10:00
-Location: Teatrul Țăndărică
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Alertă în Laponia
-Category: Theater
-Description: A children's theater performance.
-Target Audience: General.
-Date: 2025-12-06 11:00
-Location: Teatrul Ion Creangă
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Zaharașka și zăpada uitată
-Category: Theater
-Description: A children's theater performance.
-Target Audience: General.
-Date: 2025-12-06 12:00
-Location: Teatrul de Artă București
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Închide ochii și ai să vezi mai bine
-Category: Theater
-Description: A theatrical performance.
-Target Audience: General.
-Date: 2025-12-06 12:00
-Location: Teatrul de Comedie – Sala Studio
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Visul unei nopți de vară
-Category: Theater
-Description: A classic Shakespearean play.
-Target Audience: General.
-Date: 2025-12-06 16:00
-Location: Sala Gloria
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Femei bune pentru bărbați nebuni
-Category: Theater
-Description: A comedic theatrical performance.
-Target Audience: General.
-Date: 2025-12-06 16:30
-Location: Teatrul Roșu
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Milionul, nepoatele și milionara
-Category: Theater
-Description: A theatrical performance by Ken Ludwig.
-Target Audience: General.
-Date: 2025-12-06 18:00
-Location: Teatrul Elisabeta
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Oscar | Apa & Stefan III – 5 Years
+Event: Hurts
 Category: Concert
-Description: A special concert celebrating 5 years.
+Description: Electronic pop-rock band performing live.
 Target Audience: General.
-Date: 2025-12-06 18:00
+Date: 2023-07-13 20:00
 Location: Arenele Romane
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
+Cost: Free / Check Link
+Source: https://zilesinopti.ro/evenimente-bucuresti/concerte-bucuresti/#titlu-1
 
 ------------------------------------------------
 
-Event: Crăciunul lui Nicholas
+Event: Louis King
 Category: Concert
-Description: A Christmas-themed concert.
+Description: The King of the Rockin’ Blues performing live.
 Target Audience: General.
-Date: 2025-12-06 18:30
-Location: Sala Dalles
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
+Date: 2023-07-15 20:00
+Location: Quantic
+Cost: Free / Check Link
+Source: https://zilesinopti.ro/evenimente-bucuresti/concerte-bucuresti/#titlu-2
 
 ------------------------------------------------
 
-Event: Spărgătorul de nuci
-Category: Ballet
-Description: A classic ballet performance.
-Target Audience: General.
-Date: 2025-12-06 18:30
-Location: Opera Națională București
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Mahamour
+Event: Vama
 Category: Concert
-Description: A live music performance.
+Description: Popular Romanian band returning for a summer concert.
 Target Audience: General.
-Date: 2025-12-06 19:00
-Location: True Club
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Recital de pian la patru mâini
-Category: Concert
-Description: A piano recital performance.
-Target Audience: General.
-Date: 2025-12-06 19:00
-Location: Ateneul Român
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Alifantis & FragileBand – Poveste de iarnă
-Category: Concert
-Description: A winter-themed concert.
-Target Audience: General.
-Date: 2025-12-06 19:00
-Location: TNB
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
-
-------------------------------------------------
-
-Event: Dirty Disco w/ Eugen Rădescu
-Category: Party
-Description: A lively party event.
-Target Audience: General.
-Date: 2025-12-06 23:00
-Location: Control Club
-Cost: 0 RON
-Source: https://zilesinopti.ro/evenimente-bucuresti/
+Date: 2023-07-29 20:00
+Location: Arenele Romane
+Cost: Free / Check Link
+Source: https://zilesinopti.ro/evenimente-bucuresti/concerte-bucuresti/#titlu-3
 
 ------------------------------------------------
 
 Event: COFFeEAST 2025 SPECIAL X’MAS EDITION
-Category: Festival
+Category: Artă,Băutură,Festival
 Description: Special Christmas edition of COFFeEAST.
 Target Audience: General.
 Date: 2025-12-05 12:00
 Location: Unirea Shopping Center
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/coffeeast-2025-special-xmas-edition/
 
 ------------------------------------------------
 
-Event: Umoja Dance Festival Romania
+Event: Umolja Dance Festival Romania
 Category: Festival
-Description: Dance festival celebrating cultural diversity.
+Description: Dance festival featuring various performances.
 Target Audience: General.
 Date: 2025-12-05 21:00
-Location: Cafeneaua Actorilor
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Cafeneaua Actorilor - 𝕽𝖊𝖘𝖙𝖆𝖚𝖗𝖆𝖓𝖙 & 𝕭𝖆𝖑𝖑𝖗𝖔𝖔𝖒
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/%f0%9d%90%94%f0%9d%90%a6%f0%9d%90%a8%f0%9d%90%a3%f0%9d%90%9a-%f0%9d%90%83%f0%9d%90%9a%f0%9d%90%a7%f0%9d%90%9c%f0%9d%90%9e-%f0%9d%90%85%f0%9d%90%9e%f0%9d%90%ac%f0%9d%90%ad%f0%9d%90%a2%f0%9d%90%af/
 
 ------------------------------------------------
 
 Event: Dichisar de Iarnă
 Category: Târg
-Description: Winter fair with various activities.
+Description: Winter fair featuring local artisans.
 Target Audience: General.
 Date: 2025-12-06 10:00
-Location: Impact Hub Bucharest
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Impact Hub Bucharest (Universitate)
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/dichisar-de-iarna-2/
 
 ------------------------------------------------
 
 Event: Alifantis & FragileBand
-Category: Concert
+Category: Concert,Spectacol
 Description: Concert featuring Alifantis and FragileBand.
 Target Audience: General.
 Date: 2025-12-06 19:00
 Location: Teatrul Naţional Bucureşti
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/alifantis-fragileband/
 
 ------------------------------------------------
 
-Event: Concert Extraordinar de Crăciun Ștefan Bănică
-Category: Concert
+Event: CONCERT EXTRAORDINAR DE CRĂCIUN ȘTEFAN BĂNICĂ
+Category: Concert,Crăciun
 Description: Extraordinary Christmas concert by Ștefan Bănică.
 Target Audience: General.
 Date: 2025-12-06 19:30
 Location: Sala Palatului
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/concert-extraordinar-de-craciun-stefan-banica-2/
 
 ------------------------------------------------
 
@@ -389,63 +345,63 @@ Description: Party event featuring Wayback.
 Target Audience: General.
 Date: 2025-12-06 22:00
 Location: Senat.galerie
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/bairam-in-bucuresti-by-wayback-3/
 
 ------------------------------------------------
 
 Event: TEDDYBEAR x 13th Years Anniversary
-Category: Petrecere
+Category: Aer liber,Petrecere
 Description: Anniversary party for TEDDYBEAR.
 Target Audience: General.
 Date: 2025-12-06 22:00
 Location: Guava
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/teddybear-x-13th-years-anniversary/
 
 ------------------------------------------------
 
 Event: Bookisit #27 ediție de sărbătoare
-Category: Târg
-Description: Holiday edition of the Bookisit event.
+Category: Familie & Copii,Târg
+Description: Holiday edition of Bookisit event.
 Target Audience: General.
 Date: 2025-12-07 10:00
 Location: Urban Hub
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/bookisit-27-editie-de-sarbatoare/
 
 ------------------------------------------------
 
-Event: Manele All Star 2025
+Event: Manele All Star 2025 - Laminor Arena | Bucharest
 Category: Concert
-Description: All Star concert featuring popular manele artists.
+Description: Concert featuring various manele artists.
 Target Audience: General.
 Date: 2025-12-07 18:00
 Location: Laminor Arena
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 50 RON
+Source: https://www.onevent.ro/evenimente/manele-all-star-2025-laminor-arena-bucharest/
 
 ------------------------------------------------
 
-Event: Atelier Magic de Craciun
-Category: Workshop
-Description: Christmas magic workshop for relaxation and creativity.
+Event: Atelier Magic de Craciun, relaxare si creatie cu licheni - coronita
+Category: Arta,Atelier,Workshop
+Description: Christmas magic workshop with lichen decoration.
 Target Audience: General.
 Date: 2025-12-09 18:00
 Location: Timp pentru Tine
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/atelier-magic-de-craciun-relaxare-si-creatie-cu-licheni-coronita/
 
 ------------------------------------------------
 
-Event: Concert Regal de Crăciun
-Category: Concert
-Description: Regal Christmas concert at the cathedral.
+Event: CONCERT REGAL DE CRĂCIUN
+Category: Concert,Crăciun
+Description: Royal Christmas concert at the cathedral.
 Target Audience: General.
 Date: 2025-12-10 20:00
 Location: Catedrala Sf. Iosif
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/concert-regal-de-craciun/
 
 ------------------------------------------------
 
@@ -455,96 +411,96 @@ Description: Concert featuring artists from Romania and Mali.
 Target Audience: General.
 Date: 2025-12-10 20:00
 Location: Control Club
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 160 RON
+Source: https://www.onevent.ro/evenimente/saraimanic-roda-del-mundo-xvi-romania-mali/
 
 ------------------------------------------------
 
-Event: Concert de colinde "CE VEDERE MINUNATĂ!"
-Category: Concert
-Description: Christmas carol concert at the National Palace of Children.
+Event: Concert de colinde ,,CE VEDERE MINUNATĂ!”
+Category: Concert,Crăciun
+Description: Christmas carol concert at the National Palace for Children.
 Target Audience: General.
 Date: 2025-12-11 19:00
 Location: Palatul Naţional al Copiilor
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/concert-de-colinde-ce-vedere-minunata/
 
 ------------------------------------------------
 
 Event: COMA • Expirat • 11.12
 Category: Concert
-Description: Concert by the band COMA.
+Description: Concert featuring COMA and Expirat.
 Target Audience: General.
 Date: 2025-12-11 20:00
-Location: Hotel Novotel
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Str. Constantin Istrati 1, 040542 Bucharest, Romania
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/coma-expirat-11-12/
 
 ------------------------------------------------
 
 Event: APROAPE DE TINE - Împreună pentru pacienții cu Boală Parkinson
-Category: Educație
-Description: Event supporting Parkinson's disease patients.
+Category: Educaţie,Sănătate
+Description: Event for Parkinson's disease patients.
 Target Audience: General.
 Date: 2025-12-12 12:00
 Location: Hotel Novotel
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/aproape-de-tine-impreuna-pentru-pacientii-cu-boala-parkinson/
 
 ------------------------------------------------
 
-Event: INVITAŢIE LA VALS - Concert în paşi de dans
-Category: Concert
+Event: ✨INVITAŢIE LA VALS💃 Concert în paşi de dans
+Category: Concert,Teatru
 Description: Dance concert invitation.
 Target Audience: General.
 Date: 2025-12-12 19:00
 Location: Teatrul de Revista Constantin Tanase
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/%e2%9c%a8invitatie-la-vals%f0%9f%92%83-concert-in-pasi-de-dans/
 
 ------------------------------------------------
 
-Event: Alternosfera | Concert aniversar
+Event: ❗️SOLD OUT ❗️Alternosfera | Concert aniversar | Quantic | 12 decembrie
 Category: Concert
 Description: Anniversary concert for Alternosfera.
 Target Audience: General.
 Date: 2025-12-12 20:00
 Location: Quantic
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 100 RON
+Source: https://www.onevent.ro/evenimente/alternosfera-concert-aniversar-quantic-12-decembrie/
 
 ------------------------------------------------
 
 Event: Bazaar de Crăciun 2025
-Category: Târg de Craciun
-Description: Christmas bazaar with various vendors.
+Category: Arta,Băutură,Mâncare,Târg de Craciun
+Description: Christmas bazaar featuring local crafts and food.
 Target Audience: General.
 Date: 2025-12-13 10:00
 Location: Victoria Hub
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/bazaar-de-craciun-2025/
 
 ------------------------------------------------
 
 Event: RAFTUL CU CADOURI - BOUNTY FAIR #61
-Category: Târg
+Category: Atelier,Concert,Târg
 Description: Gift fair with various activities.
 Target Audience: General.
 Date: 2025-12-13 10:00
 Location: Biblioteca Națională
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 10 RON
+Source: https://www.onevent.ro/evenimente/raftul-cu-cadouri-bounty-fair-61/
 
 ------------------------------------------------
 
-Event: Armenian Winter Pop-Up Market
-Category: Târg
-Description: Winter market featuring Armenian culture.
+Event: 🎄 𝐀𝐫𝐦𝐞𝐧𝐢𝐚𝐧 𝐖𝐢𝐧𝐭𝐞𝐫 𝐏𝐨𝐩-𝐔𝐩 𝐌𝐚𝐫𝐤𝐞𝐭 🎄
+Category: Crăciun,Muzică,Târg
+Description: Winter pop-up market featuring Armenian culture.
 Target Audience: General.
 Date: 2025-12-13 12:00
-Location: str. Armenească nr. 13
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: str. Armenească nr. 13, 021043 Bucharest, Romania
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/%f0%9f%8e%84-%f0%9d%90%80%f0%9d%90%ab%f0%9d%90%a6%f0%9d%90%9e%f0%9d%90%a7%f0%9d%90%a2%f0%9d%90%9a%f0%9d%90%a7-%f0%9d%90%96%f0%9d%90%a2%f0%9d%90%a7%f0%9d%90%ad%f0%9d%90%9e%f0%9d%90%ab-%f0%9d%90%8f/
 
 ------------------------------------------------
 
@@ -553,42 +509,42 @@ Category: Concert
 Description: Live concert by The Raveonettes.
 Target Audience: General.
 Date: 2025-12-13 20:00
-Location: Quantic
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Str. Constantin Mille, nr. 4, 010142 Bucharest, Romania
+Cost: 90 RON
+Source: https://www.onevent.ro/evenimente/ctrl-live-the-raveonettes-dk/
 
 ------------------------------------------------
 
 Event: Proiecție specială CRAVATA GALBENĂ
-Category: Film
-Description: Special screening of the film CRAVATA GALBENĂ.
+Category: Cinema,Cultură,Film
+Description: Special screening of CRAVATA GALBENĂ.
 Target Audience: General.
 Date: 2025-12-15 19:00
 Location: Cinema Muzeul Țăranului
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/proiectie-speciala-cravata-galbena-2/
 
 ------------------------------------------------
 
-Event: RICKY MARTIN LIVE 2025
+Event: RICKY MARTIN LIVE 2025 la Romexpo Hall
 Category: Concert
 Description: Live concert by Ricky Martin.
 Target Audience: General.
 Date: 2025-12-16 19:00
 Location: Romexpo
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/ricky-martin-live-2025-la-romexpo-hall/
 
 ------------------------------------------------
 
-Event: ANDRA la București: Concert "Reverie"
-Category: Concert
-Description: Concert by Andra as part of her national tour.
+Event: ANDRA la București: Concert "Reverie" - 16 dec. 2025 🎄 Turneu Național de Colindă și Visare
+Category: Concert,Crăciun
+Description: Christmas concert by Andra.
 Target Audience: General.
 Date: 2025-12-16 19:30
 Location: Sala Palatului
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/andra-la-bucuresti-concert-reverie-16-dec-2025-%f0%9f%8e%84-turneu-national-de-colinda-si-visare/
 
 ------------------------------------------------
 
@@ -598,151 +554,118 @@ Description: Concert for Artan with special guests.
 Target Audience: General.
 Date: 2025-12-17 19:00
 Location: Quantic
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/partizan-concert-si-lansare-de-vinil-am-cu-ce/
 
 ------------------------------------------------
 
-Event: Concert Kaz Hawkins
+Event: Concert Kaz Hawkins | București | Quantic 18 dec. 2025
 Category: Concert
 Description: Concert by Kaz Hawkins.
 Target Audience: General.
 Date: 2025-12-18 19:00
 Location: Quantic Pub
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/concert-kaz-hawkins-bucuresti-quantic-18-dec-2025/
 
 ------------------------------------------------
 
 Event: BUCUREȘTI | MADRIGAL: CHRISTMAS mood
-Category: Concert
-Description: Christmas concert by the Madrigal choir.
+Category: Concert,Crăciun
+Description: Christmas concert by MADRIGAL.
 Target Audience: General.
 Date: 2025-12-18 19:00
 Location: Universitatea POLITEHNICA din București
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/bucuresti-madrigal-christmas-mood/
 
 ------------------------------------------------
 
 Event: BUCUREȘTI | MADRIGAL: CRĂCIUNUL FLORILOR
-Category: Concert
-Description: Concert celebrating Christmas flowers.
+Category: Concert,Crăciun
+Description: Christmas concert by MADRIGAL.
 Target Audience: General.
 Date: 2025-12-19 19:00
 Location: Universitatea POLITEHNICA din București
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/bucuresti-madrigal-craciunul-florilor/
 
 ------------------------------------------------
 
-Event: Implant Pentru Refuz - Old School - New School
+Event: Implant Pentru Refuz - Old School - New School | concert aniversar #30| Quantic 19.12.2025
 Category: Concert
 Description: Anniversary concert for Implant Pentru Refuz.
 Target Audience: General.
 Date: 2025-12-19 19:00
 Location: Quantic
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 75 RON
+Source: https://www.onevent.ro/evenimente/implant-pentru-refuz-old-school-new-school-concert-aniversar-30-quantic-19-12-2025/
 
 ------------------------------------------------
 
-Event: TRONOS - Concert de colinde
+Event: TRONOS - Concert de colinde - Sala Dalles
 Category: Concert
-Description: Christmas carol concert by TRONOS.
+Description: Christmas carol concert.
 Target Audience: General.
 Date: 2025-12-21 19:30
 Location: Centrul Metropolitan de Educație și Cultură „Ioan I. Dalles”
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/tronos-concert-de-colinde-sala-dalles/
 
 ------------------------------------------------
 
 Event: The Sound of a Vintage Christmas
-Category: Concert
-Description: Vintage Christmas concert at the Parliament.
+Category: Concert,Crăciun,Spectacol
+Description: Vintage Christmas concert.
 Target Audience: General.
 Date: 2025-12-21 20:15
-Location: Palatul Parlamentului
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Bucharest, Romania
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/the-sound-of-a-vintage-christmas-2/
 
 ------------------------------------------------
 
-Event: Latin Fusion Congress - Weekend 2
-Category: Festival
-Description: Latin dance and music festival.
+Event: Latin Fusion Congress - Weekend 2 - 20-22 September, Bucharest
+Category: Concert,Dans,Festival
+Description: Fusion dance congress.
 Target Audience: General.
-Date: 2025-09-20 00:00
+Date: 2025-12-24 18:00
 Location: Palace of the Parliament
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/latin-fusion-congress-weekend-2-20-22-september-bucharest/
 
 ------------------------------------------------
 
 Event: Revelion Balkanic 2026
-Category: Revelion
-Description: New Year's Eve celebration with Balkan music.
+Category: Concert,Revelion
+Description: New Year's Eve celebration.
 Target Audience: General.
 Date: 2025-12-31 00:00
 Location: Iris Ballroom
-Cost: 590 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/revelion-balkanic-2026-iris-ballroom/
 
 ------------------------------------------------
 
-Event: REVELION 2026 cu 3 Sud Est, Crina Matei și trupa Zebbra
-Category: Revelion
-Description: New Year's Eve party with popular artists.
+Event: REVELION 2026 cu 3 Sud Est, Crina Matei și trupa Zebbra // Berăria H - București
+Category: Concert,Petrecere,Revelion
+Description: New Year's Eve concert with popular artists.
 Target Audience: General.
 Date: 2025-12-31 00:00
 Location: Beraria H
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Cost: 590 RON
+Source: https://www.onevent.ro/evenimente/revelion-2026-cu-3-sud-est-crina-matei-si-trupa-zebbra-beraria-h-bucuresti/
 
 ------------------------------------------------
 
 Event: REVELION 2026 SHOW BURLESQUE - CONNECT-R
-Category: Revelion
+Category: Concert,Petrecere,Spectacol
 Description: Burlesque show for New Year's Eve.
 Target Audience: General.
 Date: 2025-12-31 00:00
-Location: Calea Piscului, Oraselul Copiilor
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
-
-------------------------------------------------
-
-Event: Revelionul Bal Mascat
-Category: Revelion
-Description: Masquerade ball for New Year's Eve.
-Target Audience: General.
-Date: 2025-12-31 00:00
-Location: Calea Piscului, Oraselul Copiilor
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
-
-------------------------------------------------
-
-Event: Revelion 2026 în stil Mare în București
-Category: Revelion
-Description: Grand New Year's Eve celebration.
-Target Audience: General.
-Date: 2025-12-31 00:00
-Location: Taverna Marelui Paharnic
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
-
-------------------------------------------------
-
-Event: Classic New Year's Eve 2026 @ Fabrica & B52 The Club
-Category: Revelion
-Description: Classic New Year's Eve party.
-Target Audience: General.
-Date: 2025-12-31 00:00
-Location: Strada 11 Iunie nr. 50
-Cost: 0 RON
-Source: https://www.onevent.ro/orase/bucuresti/
+Location: Bucurestii Noi, nr 48, 050883 Bucharest, Romania
+Cost: Free / Check Link
+Source: https://www.onevent.ro/evenimente/revelion-2026-s
 
 ------------------------------------------------
 
