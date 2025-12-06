@@ -10,3 +10,5 @@ chroma_db/
 # Python cache files
 __pycache__/
 *.pyc
+
+../setup_data.py
