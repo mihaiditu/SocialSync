@@ -1,0 +1,28 @@
+Event: Bucharest Sunday Hikers Group
+Category: Sports & Outdoors
+Description: Join us for a beginner-friendly hike in the Comana Forest. This is a great way to escape the city noise and meet new people. We walk at a slow pace, allowing plenty of time for conversation and photos. After the hike, we usually stop at a local restaurant for lunch.
+Target Audience: Nature lovers, people looking for a relaxed group.
+Date: Every Sunday at 09:00 AM.
+Location: Meeting point is Piata Unirii Subway Station, Bucharest.
+Cost: Free (share gas money if carpooling).
+Contact: hikers@example.com
+
+------------------------------------------------
+
+Event: The "Introvert's" Board Game Night
+Category: Hobbies & Social
+Description: Do you find loud clubs exhausting? Come play Catan, Ticket to Ride, and Dungeons & Dragons with us. We are a friendly group that values strategy over noise. Beginners are welcome; we will teach you the rules. It is a safe space to make friends without the pressure of small talk.
+Target Audience: Introverts, gamers, students.
+Date: Thursdays at 18:30.
+Location: Snakes & Lattes Cafe, Strada Matasari, Bucharest.
+Cost: 15 RON entry (includes a soda).
+
+------------------------------------------------
+
+Event: Tech & Coffee Morning
+Category: Professional Networking
+Description: A casual meetup for software developers, designers, and tech enthusiasts. No formal presentations, just coffee and good conversation about the latest tech trends, AI, and startup ideas. Great for finding a mentor or a coding partner.
+Target Audience: Students, Developers, Entrepreneurs.
+Date: Tuesdays at 10:00 AM.
+Location: Beans & Dots, Palatul Universul.
+Cost: Free entry, just buy your own coffee.
