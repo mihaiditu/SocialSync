@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import EventCard from './components/EventCard';
 import { Send, RefreshCw, Bot } from 'lucide-react';
 
-const SESSION_ID = "user-session-1"; // Simple session ID
+const SESSION_ID = "user-session-1";
 
 function App() {
   const [messages, setMessages] = useState([
@@ -12,13 +12,23 @@ function App() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
+  
+  // REFS
   const messagesEndRef = useRef(null);
+  const inputRef = useRef(null);
 
+  // SCROLL TO BOTTOM
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
-
   useEffect(scrollToBottom, [messages]);
+
+  // AUTO-FOCUS LOGIC
+  useEffect(() => {
+    if (!isLoading && !isComplete) {
+      inputRef.current?.focus();
+    }
+  }, [isLoading, isComplete]);
 
   const handleSend = async () => {
     if (!input.trim()) return;
@@ -61,37 +71,43 @@ function App() {
     });
     setMessages([{ role: 'assistant', text: "Hi! I'm SocialSync. I'm here to connect you with your tribe. Tell me, what's on your mind?", events: [] }]);
     setIsComplete(false);
+    setIsLoading(false);
   };
 
   return (
-    <div className="flex h-screen bg-gray-100 font-sans">
-      {/* Sidebar */}
-      <div className="w-64 bg-white border-r border-gray-200 p-6 hidden md:block">
-        <h1 className="text-2xl font-bold text-gray-800 mb-2 flex items-center gap-2">
+    <div className="flex h-screen bg-gray-900 font-sans text-gray-100">
+      {/* Sidebar - Dark Gray */}
+      <div className="w-64 bg-gray-800 border-r border-gray-700 p-6 hidden md:block">
+        <h1 className="text-2xl font-bold text-white mb-2 flex items-center gap-2">
            SocialSync <span className="text-2xl">🤝</span>
         </h1>
-        <p className="text-gray-500 text-sm mb-8">
+        <p className="text-gray-400 text-sm mb-8">
           Mission: Connect you with local events using Agentic AI.
         </p>
         <button 
           onClick={handleReset}
-          className="w-full flex items-center justify-center gap-2 bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition"
+          className="w-full flex items-center justify-center gap-2 bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition shadow-lg"
         >
           <RefreshCw size={18} /> Reset Chat
         </button>
       </div>
 
-      {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full bg-white shadow-xl h-screen">
+      {/* Main Chat Area - Very Dark Gray */}
+      <div className="flex-1 flex flex-col max-w-5xl mx-auto w-full bg-gray-900 h-screen relative">
         
         {/* Messages List */}
-        <div className="flex-1 overflow-y-auto p-6 space-y-6">
+        <div className="flex-1 overflow-y-auto p-6 space-y-6 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
           {messages.map((msg, idx) => (
             <div key={idx} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-              <div className={`max-w-[85%] ${msg.role === 'user' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-800'} rounded-2xl p-4 shadow-sm`}>
+              <div className={`max-w-[85%] ${
+                msg.role === 'user' 
+                  ? 'bg-blue-600 text-white' 
+                  : 'bg-gray-800 text-gray-100 border border-gray-700'
+                } rounded-2xl p-4 shadow-md`}
+              >
                 
                 {/* Text Content */}
-                <div className="prose prose-sm max-w-none mb-2">
+                <div className="prose prose-invert prose-sm max-w-none mb-2">
                   <ReactMarkdown>{msg.text}</ReactMarkdown>
                 </div>
 
@@ -107,40 +123,42 @@ function App() {
             </div>
           ))}
           {isLoading && (
-            <div className="flex items-center gap-2 text-gray-400 p-4">
-              <Bot className="animate-bounce" /> Thinking...
+            <div className="flex items-center gap-2 text-gray-400 p-4 animate-pulse">
+              <Bot className="animate-bounce text-red-500" /> Thinking...
             </div>
           )}
           <div ref={messagesEndRef} />
         </div>
 
         {/* Input Area */}
-        <div className="p-4 border-t border-gray-200 bg-white">
+        <div className="p-4 border-t border-gray-800 bg-gray-800">
           {!isComplete ? (
             <div className="flex gap-2">
               <input
+                ref={inputRef}
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSend()}
                 placeholder="Type your answer..."
-                className="flex-1 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="flex-1 p-3 bg-gray-700 border border-gray-600 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-400"
                 disabled={isLoading}
+                autoFocus
               />
               <button 
                 onClick={handleSend}
                 disabled={isLoading}
-                className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 disabled:opacity-50"
+                className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition"
               >
                 <Send size={20} />
               </button>
             </div>
           ) : (
             <div className="text-center p-4">
-              <div className="text-green-600 font-bold text-xl mb-2">🎉 Mission Complete!</div>
+              <div className="text-green-400 font-bold text-xl mb-2">🎉 Mission Complete!</div>
               <button 
                 onClick={handleReset}
-                className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+                className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 shadow-lg transition"
               >
                 Start New Search
               </button>
