@@ -6,6 +6,7 @@ from rag_logic import SocialSyncAgent
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 import json
 import os
+from email_service import send_event_email
 
 app = FastAPI()
 
@@ -30,6 +31,7 @@ def save_db():
         json.dump(users_db, f, indent=2)
 
 # --- MODELS ---
+
 class AuthRequest(BaseModel):
     email: str          
     password: str
@@ -53,6 +55,10 @@ class ChatResponse(BaseModel):
     events: List[EventData] = []
     mission_complete: bool = False
     new_vibe: Optional[str] = None 
+
+class EmailRequest(BaseModel):
+    email: str
+    event: EventData
 
 # --- SESSION STORE ---
 sessions = {}
@@ -291,6 +297,18 @@ async def reset_chat(req: ChatRequest):
     if req.session_id in sessions:
         del sessions[req.session_id]
     return {"status": "reset"}
+
+@app.post("/send-event-email")
+async def send_event_email_endpoint(req: EmailRequest):
+    if not req.email or "@" not in req.email:
+         raise HTTPException(status_code=400, detail="Valid email required")
+    
+    success, message = send_event_email(req.email, req.event.dict())
+    
+    if not success:
+        raise HTTPException(status_code=500, detail=f"Failed to send email: {message}")
+        
+    return {"status": "success", "message": "Ticket info sent to your inbox!"}
 
 if __name__ == "__main__":
     import uvicorn

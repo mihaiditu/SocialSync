@@ -3,11 +3,51 @@ import ReactMarkdown from 'react-markdown';
 import EventCard from './components/EventCard';
 import Sidebar from './components/Sidebar';
 import AuthModal from './components/AuthModal';
-import { Send, Bot, User, LogIn, LogOut, Database } from 'lucide-react';
+import { Send, Bot, User, LogIn, LogOut, Database, Mail } from 'lucide-react'; // Added Mail
 
 const SESSION_ID = "user-session-1";
 
 function App() {
+
+  // --- EMAIL HANDLER ---
+  const handleEmailEvent = async (event) => {
+    let targetEmail = user ? user.email : null;
+
+    // If not logged in, ask for email manually
+    if (!targetEmail) {
+      targetEmail = prompt("Where should we send this event? Enter your email:");
+    }
+
+    if (!targetEmail || !targetEmail.includes('@')) {
+      alert("Please provide a valid email.");
+      return;
+    }
+
+    try {
+      // Optimistic UI update (optional: you could add a loading state here)
+      alert(`Sending ${event.title} to ${targetEmail}...`);
+
+      const response = await fetch('http://localhost:8000/send-event-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: targetEmail,
+          event: event
+        })
+      });
+
+      const data = await response.json();
+      if (data.status === 'success') {
+        alert("Email sent successfully! 📬");
+      } else {
+        alert("Failed to send email.");
+      }
+    } catch (error) {
+      console.error("Email error:", error);
+      alert("Something went wrong sending the email.");
+    }
+  };
+
   // --- USER STATE ---
   const [user, setUser] = useState(() => {
     const saved = localStorage.getItem("socialsync_user");
@@ -239,9 +279,29 @@ function App() {
                       <ReactMarkdown>{msg.text}</ReactMarkdown>
                     </div>
                     {msg.events && msg.events.length > 0 && (
-                      <div className="flex flex-wrap gap-4 mt-3">
+                      <div className="flex flex-wrap gap-4 mt-3 w-full">
                         {msg.events.map((event, i) => (
-                          <EventCard key={i} event={event} />
+                          <div 
+                            key={i} 
+                            // CHANGE: flex-1 allows cards to grow, min-w prevents squishing
+                            className="flex flex-col gap-0 flex-1 min-w-[300px] max-w-full md:max-w-[48%]" 
+                          >
+                            {/* Force EventCard to fill the wrapper width */}
+                            <div className="w-full h-full [&>div]:w-full [&>div]:h-full">
+                              <EventCard event={event} />
+                            </div>
+
+                            {/* The Email Button - styled to attach to the bottom of the card */}
+                            <button 
+                              onClick={() => handleEmailEvent(event)}
+                              className="flex items-center justify-center gap-2 w-full py-3 bg-gray-800 hover:bg-gray-700 text-gray-400 hover:text-white 
+                                        border-x border-b border-gray-700 hover:border-gray-600 rounded-b-xl text-xs font-semibold 
+                                        uppercase tracking-wider transition-all mt-[-4px] z-0 relative"
+                            >
+                              <Mail size={14} />
+                              <span>Email Details</span>
+                            </button>
+                          </div>
                         ))}
                       </div>
                     )}
